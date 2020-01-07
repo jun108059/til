@@ -10,7 +10,7 @@
 #### 1. [Algorithm](##algorithm)
 #### 2. [Kubernetes](##kubernetes)   
 #### 3. [Docker](##docker)
-
+#### 4. [News](##news)
 
 ![img](kubernetes/img/til.JPG)   
 
@@ -30,3 +30,7 @@
 
 ## Docker
  ● [What is Docker?](https://github.com/jun108059/til/blob/master/docker/00.WhatIsDocker.md)  
+
+
+## :newspaper:News
+ ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
