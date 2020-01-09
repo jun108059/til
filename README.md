@@ -7,11 +7,11 @@
 
 ## :open_book:Categories
 
-#### 1. [Algorithm](##pushpinalgorithm)
-#### 2. [Kubernetes](##pushpinkubernetes)   
-#### 3. [Docker](##pushpindocker)
-#### 4. [Machine Learning](##pushpinmachine-learning)
-#### 4. [News](##pushpinnews)
+#### 1. [Algorithm](##📌algorithm)
+#### 2. [Kubernetes](##📌kubernetes)   
+#### 3. [Docker](##📌docker)
+#### 4. [Machine Learning](##📌machine-learning)
+#### 4. [News](##📌news)
 
 ![img](kubernetes/img/til.JPG)   
 
