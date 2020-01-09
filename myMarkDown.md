@@ -5,19 +5,19 @@
 마크다운 문법에 대해 공부하다보니 내가 정리하는게 나을 것 같아 정리한다.
 <br><br>
 ## 목차
-- [제목(Header)](#제목(header))  
-- [강조(Emphasis)](#강조(emphasis))  
-- [목록(List)](#목록(list))
-- [링크(Links)](#링크(links))  
-- [각주(Footnotes)](#각주(footnotes))  
+- [제목(Header)](#제목header)  
+- [강조(Emphasis)](#강조emphasis))  
+- [목록(List)](#목록list)
+- [링크(Links)](#링크links)  
+- [각주(Footnotes)](#각주footnotes)  
 - [접기](#접기)  
-- [이스케이프(Backslash Escapes)](#이스케이프(backslash-escapes))  
-- [이미지(Images)](#이미지(images))  
-- [코드(Code) 강조](#코드(code)-강조)  
-- [표(Table)](#표(table))  
-- [인용문(BlockQuote)](#인용문(blockquote))  
-- [수평선(Horizontal Rule)](#수평선(horizontal-rule))  
-- [줄바꿈(Line Breaks)](#줄바꿈(line-breaks))  
+- [이스케이프(Backslash Escapes)](#이스케이프backslash-escapes)  
+- [이미지(Images)](#이미지images)  
+- [코드(Code) 강조](#코드code-강조)  
+- [표(Table)](#표table)  
+- [인용문(BlockQuote)](#인용문blockquote)  
+- [수평선(Horizontal Rule)](#수평선horizontal-rule)  
+- [줄바꿈(Line Breaks)](#줄바꿈line-breaks)  
 
 <br><br>
 ## 제목(Header)
@@ -127,6 +127,8 @@
 > **주의할 점**  
 > 1. 띄어쓰기는 - 로 연결해준다.   
 > 2. 영어는 모두 소문자로 작성한다.  
+> 3. ()괄호는 없이 작성한다.
+> 4. 이모지를 사용할 경우 :: 없이 작성한다.
 
 <br><br>
 
