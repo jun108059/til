@@ -6,9 +6,9 @@ Mobile World Congress 2018에서 Flutter의 최초 베타 릴리스를 발표하
 Google에서 새롭게 선보이는 모바일 UI 프레임워크이며, 
 개발자가 iOS와 Android 모두를 위한 고품질 기본 인터페이스를 제작하는 데 도움을 주는 크로스 플랫폼 프레임워크 입니다.
 
-[v] IOS  
-[v] Android  
-[v] Any Web App  
+- [x] IOS  
+- [x] Android  
+- [x] Any Web App  
 
 Dart 언어로 모두 구현 가능
 
