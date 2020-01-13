@@ -1,0 +1,389 @@
+# <p align="center">[Flutter] 1. 첫번째 앱 만들어보기, part 1</p>
+  ![img](/img/flutter.jpg)
+> flutter 공식 문서인 https://flutter.dev/docs/get-started/codelab 내용을     
+> 바탕으로 재구성하였습니다. 
+
+### Contents
+* [Step 1: Starter Flutter App 만들기](#Step-1:-Starter-Flutter-App-만들기)
+* [Step 2: 외부 패키지 사용하기](#Step-2:-외부-패키지-사용하기)
+* [Step 3: Stateful 위젯 추가하기](#Step-3:-Stateful-위젯-추가하기)
+* [Step 4: 무한 스크롤링 ListView 만들기](#Step-4:-무한-스크롤링-ListView-만들기)
+
+이 문서는 첫 번째 Flutter 앱을 만드는 가이드입니다. 객체 지향 코드와 변수, 루프 및 조건과 같은 기본 프로그래밍 개념에 익숙한 경우이 Tutoliar를 완료 할 수 있습니다. Dart, 모바일 또는 웹 프로그래밍에 대한 이전 경험이 필요하지 않습니다.
+
+이 Tutoliar은 두 부분으로 구성된 Code lab의 part 1입니다. Google Developers에서 part 2를 찾을 수 있습니다. part 1도 Google Developers에서 찾을 수 있습니다.
+
+## Part 1 에서 만들 것
+
+
+1 부에서 만들 내용
+
+startup 회사를 위해 제안할 이름을 생성하는 간단한 모바일 앱을 구현합니다. 사용자는 이름을 선택하거나 선택 해제하여 최상의 이름을 저장할 수 있습니다. 코드는 느리게 이름을 생성합니다. 사용자가 스크롤하면 더 많은 이름이 생성됩니다. 사용자가 스크롤 할 수있는 거리에는 제한이 없습니다.
+
+'완성된 App'을 통해 Part 1 에서 완성할 앱이 어떻게 동작하는지 확인 가능합니다.
+
+![img](/img/flutter01.gif)    
+(완성된 App, 출처 : flutter 공식 문서)
+
+``` bash
+Part 1 에서 배울 내용
+- 어떻게 플러터 앱이 iOS와 Android에서 네이티브로 보이도록 앱을 만들 수 있는지
+- 플러터 앱의 기본 구조
+- 패키지를 찾아서 사용하여 기능을 확장
+- 더 빠른 개발 사이클을 위해 핫 리로드 기능을 사용
+- 어떻게 Stateful widget을 구현하는지
+- 어떻게 무한하고, 지연되게 목록을 읽어오도록 만드는지
+
+이 코드랩의 파트2에서는 상호작용기능을 추가하고, 응용프로그램의 테마를 수정하고, 새 화면으로 이동할 수 있는 기능을 추가합니다.
+
+(이것은 Flutter에서는 route라고 부릅니다.)
+```
+
+``` bash
+사용할 요소
+- Lab 에서 소프트웨어 2개의 요소가 필요합니다: Flutter SDK와 에디터. 이 코드랩은 Android Studio에서 한다고 가정하지만, 얼마든지 선호하는 에디터에서 진행할 수 있습니다.
+
+당신은 다음의 기기들을 이 코드랩에서 사용하여 실행이 가능합니다.
+
+- 당신의 컴퓨터에 연결된 물리적 기기(Android 혹은 iOS)와 개발자 모드로의 설정
+- iOS 시뮬레이터
+- Android 에뮬레이터
+```
+
+
+## Step 1: Starter Flutter App 만들기
+
+Flutter 앱의 템플릿으로부터, 구동테스트의 지시를 따라가면서 간단하게 앱을 만듭니다. 프로젝트의 이름은 myapp 대신에 startup_namer라고 짓습니다.
+
+
+```
+팁: 만약 "New Flutter Project"라는 옵션을 IDE에서 찾지 못하겠다면, 편집기 설정하기를 이용해서 환경을 만들어야 합니다.
+```
+
+
+이 코드랩에서, 당신은 Dart 코드가 있는 lib/main.dart를 가장 많이 편집하게 됩니다.
+
+
+
+1. lib/main.dart의 내용을 교체하세요.
+
+lib/main.dart에 있는 내용을 모두 삭제하고, 아래에 나와있는 코드로 복사해서 넣으면, 화면에 "Hello World"라는 글자가 중앙네 나오게 됩니다.
+
+
+
+[lib/main.dart]
+``` dart
+import 'package:flutter/material.dart';
+ 
+void main() => runApp(MyApp());
+ 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Welcome to Flutter'),
+        ),
+        body: Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+```
+팁: 이 코드를 당신의 앱에 붙여넣을 때, 들여쓰기가 왜곡될 수 있습니다. 당신은 Flutter 툴을 이용해서 이것을 자동으로 고칠 수 있습니다:
+- Android Studio / IntelliJ IDEA: 코드를 마우스 우클릭하고, [Reformat Code with dartfmt] 선택
+- VS Code: 마우스 우클릭하고, [Format Document] 선택
+- Terminal: "flutter format <파일이름>" 명령어 실행
+```
+2. IDE의 녹색 화살포 버튼을 이용해서 앱을 실행하세요. 당신은 당신의 디바이스에 종속적으로 나오는 Android나 iOS 출력물을 보게 됩니다.
+
+![img](/img/flutter02.jpg)     
+(Android, iOS 출력 화면)
+
+```
+팁: 물리적 기기에서 처음 실행시킬 때는, 처음 로드할 때 시간이 좀 걸릴 수 있습니다. 이 다음부터는 빠른 업데이트를 위해 핫 리로드 사용이 가능합니다. 만약 앱이 실행중이라면 "Save" 역시 핫 리로드 기능을 동작시킵니다.
+```
+### Observations
+* 이 예제에서는 **Material** 앱을 생성합니다. Material은 모바일과 웹에서의 표준 비주얼 디자인 언어입니다. Flutter는 Material 위젯의 다양한 자료를 제공합니다.
+* **main()** 메소드는 화살표 표기법을 사용합니다.(=>) 화살표 표기법은 한 줄 함수나 메소드를 위한 것입니다.
+* 이 앱은 **StatelessWidget**을 확장해서 자신의 위젯을 만듭니다. Flutter에서는 정렬, 패딩, 레이아웃을 포함하여 거의 모든 것이 위젯입니다.
+* Material 라이브러리에 있는 **Scaffold** 위젯은 홈 스크린을 위한 위젯 트리에 고정되는 기본 앱 바, 타이틀, 바디 속성을 제공합니다. 이 위젯 서브트리는 상당히 복잡할 수 있습니다.
+* 위젯의 주된 작업은 다른 하위 레벨 위젯의 관점에서 위젯을 표시하는 방법에 대해 설명하는 **build()** 메소드를 제공하는 것입니다.
+* 이 예제의 본문은 **Text** 하위 위젯을 포함하는 **Center** 위젯으로 구성됩니다. Center 위젯은 위젯 하위 트리를 화면 가운데로 맞춥니다.
+
+
+## Step 2: 외부 패키지 사용하기
+
+이 스텝에서는 english_words라고 불리는 오픈소스 패키지를 이용하여 시작할 것입니다. 이 패키지에는 가장 많이 사용되는 영어 단어 몇 가지와 몇 가지 유틸리티 기능이 포함되어 있습니다.
+
+당신은 Pub site에서 다른 많은 오픈소스 패키지와 함께 english_words 패키지를 찾을 수 있습니다. 
+
+1. pubspec 파일은 Flutter 앱의 애셋과 종속성을 관리합니다. pubspec.yaml에서 english_words를 dependencies list에 추가합니다.(3.1.0 이나 상위버전)
+
+{step1_base → step2_use_package}/pubspec.yaml
+``` bash
+@@ -5,4 +5 5 @@
+dependencies:            
+  flutter:            
+    sdk: flutter            
+  cupertino_icons: ^0.1.2            
++ english_words: ^3.1.0
+```
+2. Android Studio의 editor view에서 pubspec이 보여지는 동안 [Packages get]을 클릭하세요. 이것은 패키지를 당신의 프로젝트에 가져오게 됩니다. 당신은 콘솔에서 다음과 같은 메세지를 보게 될 것입니다:
+
+```
+$ flutter packages get
+
+Running "flutter packages get" in startup_namer...
+
+Process finished with exit code 0
+```
+
+[Packages get]을 수행하는 동안 pubspec.lock 파일이 자동생성될 것입니다. 이 동안 목록에 있는 모든 패키지를 프로젝트 안에 해당되는 버전을 찾아 가져오게 됩니다.
+
+3. lib/main.dart 안에 새로운 패키지를 import 하세요.
+
+[lib/main.dart]
+``` dart
+import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+```
+
+당신이 입력한 것처럼 Android Studio는 import하기 위하여 라이브러리를 제안할 것입니다. import된 문자열이 회색으로 표현되고 있다면, import된 라이브러리가 사용중이지 않다는 것으로 이해하면 됩니다.(아직까지)
+
+4. "Hello World"를 입력한 문자열을 대신하여 텍스트를 생성하기 위해 English words 패키지를 사용하세요
+{step1_base → step2_use_package}/lib/main.dart
+``` dart
+class MyApp extends StatelessWidget {            
+  @override            
+  Widget build(BuildContext context) {            
++   final wordPair = WordPair.random();            
+    return MaterialApp(            
+      title: 'Welcome to Flutter',            
+      home: Scaffold(            
+@@ -16,7 +18,7 @@    
+        title: Text('Welcome to Flutter'),            
+      ),            
+      body: Center(            
+-       child: Text('Hello World'),            
++       child: Text(wordPair.asPascalCase),            
+      ),            
+    ),            
+  );
+```
+```
+노트: "Pascal case"(또는 보통 "대문자 카멜 케이스"라고 알려진), 이것은 첫번째 문자열을 포함하여 문자열의 각 단어가 대문자로 시작함을 의미합니다. 따라서 "uppercamelcase"는 "UpperCamelCase"가 됩니다.
+```
+
+5. 만약 앱이 구동중이라면, 실행중인 앱의 업데이트를 위해 핫 리로드 버튼을 사용하세요. 핫 리로드를 클릭하거나 프로젝트를 저장할 때마다 실행중인 앱에서 임의로 선택된 다른 단어 쌍을 볼 수 있습니다. 이것은 MaterialApp에서 렌더링이 필요하거나 Flutter Inspector에서 플랫폼을 토글할 때마다 실행되는 build 메소드 내부에서 단어 페어링이 실행되기 때문입니다.
+
+![img](/img/flutter03.png)     
+(Android, iOS 출력 화면)
+
+## Step 3: Stateful 위젯 추가하기
+Stateless 위젯은 불변합니다. 그것은 그것들의 프로퍼티가 변경될 수 없고 모든 값이 최종값입니다.
+
+Stateful 위젯은 위젯의 생명주기동안 상태가 변경될 수 있는 상태를 유지합니다. Stateful 위젯을 구현하려면 적어도 2개의 클래스가 필요합니다: 1) State클래스, 2) State 클래스의 인스턴스를 생성하는 클래스인 StatefulWidget 클래스. StatefulWidget 클래스는 그것 자신은 불변하지만, Sate 클래스는 위젯의 생명주기동안 지속됩니다.
+
+이 단계에서, 당신은 RandomWords라는 stateful 위젯을 추가합니다. 그것은 RandomWordsState라는 이름의 State 클래스를 생성한다. 당신은 이미 있는 MyApp stateless 위젯의 안에 RandomWords를 자식으로 사용할 것입니다.
+
+1. 작은 state 클래스를 만듭니다. main.dart의 맨 아래에 아래의 내용을 추가해주세요.
+
+lib/main.dart (RandomWordsState)
+``` dart
+class RandomWordsState extends State<RandomWords> {
+  // TODO Add build() method
+}
+```
+
+State<RandomWords> 선언에 집중하세요. 이것은 우리가 RandomWords 형태로 사용하기 위해 특화된 일반 State라는 것을 나타냅니다. 앱의 로직과 상태는 대부분 RandomWords 위젯의 상태를 유지합니다. 이 클래스는 사용자가 스크롤 할 때 무한히 증가하는 목록인 생성된 단어 쌍과 마음에 드는 아이콘을 전환하여 목록에서 단어 쌍을 추가하거나 제거할 때 좋아하는 단어 쌍을 저장합니다.(파트 2에서 다룸)
+  
+RandomWordsState는 RandomWords 클래스에 종속됩니다. 다음에서 당신이 추가하게 됩니다.
+
+2. main.dart에 stateful 위젯인 RandomWords 위켓을 추가합니다. RandomWords 위젯은 그것의 State 클래스를 생성하는 것 외에 다른 작업을 수행하지 않습니다.
+
+lib/main.dart (RandomWords)
+``` dart
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => new RandomWordsState();
+}
+```
+
+state 클래스를 추가한 뒤에, IDE는 build 메소드를 빠뜨렸다고 문제를 제기합니다. 다음에 당신은 MyApp에서 RandomState로 이동하여 build 메소드를 추가하여 단어쌍들이 자동으로 생성되는 코드를 추가할 것입니다.
+
+3. RandomWordsState에 build() 메소드를 추가하세요.
+
+lib/main.dart (RandomWordsState)
+```dart
+class RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    final wordPair = WordPair.random();
+    return Text(wordPair.asPascalCase);
+  }
+}
+```
+
+4. 다음 diff에 표시된 변경 사항을 적용하여 MyApp에서 생성한 코드를 제거해주세요.
+``` dart
+@@ -10,7 +10,6 @@    
+  class MyApp extends StatelessWidget {            
+    @override            
+    Widget build(BuildContext context) {            
+-     final wordPair = WordPair.random();            
+      return MaterialApp(            
+        title: 'Welcome to Flutter',            
+        home: Scaffold(            
+@@ -18,8 +17,8 @@    
+          title: Text('Welcome to Flutter'),            
+        ),            
+        body: Center(            
+-         child: Text(wordPair.asPascalCase),            
++         child: RandomWords(),            
+        ),            
+      ),            
+    );            
+  }
+```
+5. 앱을 재시작하세요. 이 앱은 전처럼 동작하여, 핫 리로드 하거나 앱을 저장할 때마다 단어 쌍을 표시할 것입니다.
+
+```
+팁: 만약 당신이 핫 리로드를 하는데 다음 경고가 표시된다면, 앱을 재시작하는 것을 고려해보세요.
+"Reloading…
+Some program elements were changed during reload but did not run when the view was reassembled; you may need to restart the app (by pressing “R”) for the changes to have an effect."
+이것은 거짓된 긍정일 수도 있지만, 다시 시작한다면 반영된 앱의 UI로 표시될 것입니다.
+```
+## Step 4: 무한 스크롤링 ListView 만들기
+
+이 스텝에서는 당신은 RandomWordsState를 확장하여 단어쌍의 목록을 생성하고 화면에 표시하도록 할 예정입니다. 사용자의 스크롤처럼, 목록은 ListView 위젯에서 표시되고, 무한히 증가합니다. ListView의 builder 팩토리 생성자는 당신의 목록 뷰를 명령할 때마다 유연하게 build 하도록 합니다.
+
+1. 제안하는 단어 쌍을 저장하기 위해 suggestions 목록을 RandomWordsState 클래스에 추가하세요. 또한 폰트 사이즈를 크게 만들기 위해 biggerFont 변수를 추가하세요.
+
+lib/main.dart
+``` dart
+class RandomWordsState extends State<RandomWords> {
+  final _suggestions = <WordPair>[];
+  final _biggerFont = const TextStyle(fontSize: 18.0);
+  // ···
+}
+```
+```
+노트: Dart 언어에서는 _(언더스코어)를 식별자의 prefix로 붙이면 privacy가 강제 적용됩니다.
+```
+
+다음에 RandomWordsState 클래스에 buildSuggestions() 함수를 추가할 것입니다. 이 메소드는 제안하는 단어 쌍을 표시하는 ListVIew를 빌드합니다.
+
+ListView 클래시는 익명 함수로 지정된 팩토리 빌더 및 콜백함수인 빌드 프로퍼티와 itemBuilder를 제공합니다. 2개의 매개변수인 BuildContext와 행 이터레이터 i를 함수로 전달합니다. 이터레이터는 0에서 시작하고 각 제안하는 단어 쌍의 함수가 호출되는 시간마다 증가합니다. 이 모델을 사용하면 용자의 스크롤 처럼 증가하는 목록을 무한대로 확장할 수 있습니다.
+
+2. RandomWordsState 클래스에 buildSuggestions() 함수를 추가하세요.
+
+lib/main.dart (buildSuggestions)
+```dart
+Widget _buildSuggestions() {
+  return ListView.builder(
+      padding: const EdgeInsets.all(16.0),
+      itemBuilder: /*1*/ (context, i) {
+        if (i.isOdd) return Divider(); /*2*/
+ 
+        final index = i ~/ 2; /*3*/
+        if (index >= _suggestions.length) {
+          _suggestions.addAll(generateWordPairs().take(10)); /*4*/
+        }
+        return _buildRow(_suggestions[index]);
+      });
+}
+```
+/*1*/ itemBuilder 콜백은 제안된 단어 쌍 마다 한번씩 호출되며 각 제안을 ListTile 행에 위치해 줍니다. 짝수행의 ListTile 함수는 단어 쌍에 대한 ListTile 행을 추가합니다. 홀 수 행의 Divider 함수는 Divider 위젯을 추가하여 항목을 시각적으로 분리합니다. 작은 장치에서는 구분선이 잘 보이지 않을 수도 있습니다.
+
+/*2*/ ListView 각 행 앞에 1 픽셀 높이의 구분선 위젯을 추가합니다.
+
+/*3*/ i ~/ 2 표현식은 i에서 2를 나누고 나머지 정수를 리턴합니다. 예를들면, 1,2,3,4,5는 0,1,1,2,2가 됩니다. 이것은 ListView에서 Divider 위젯을 제외한 단어 쌍의 실제 숫자를 계산합니다.
+
+/*4*/ 사용 가능한 단어 페어링이 끝났으면 10개를 더 생성하고 제안 목록에 추가합니다.
+
+buildSuggestions() 함수는 각 단어 쌍마다 buildRow()를 호출합니다. 이 함수는 ListTile안에서 새로운 쌍을 표시하므로, 다음 단계에서 행을 더욱 매력적으로 만들 수 있습니다.
+
+3. buildRow() 함수를RandomWordsState에 추가하세요.
+
+lib/main.dart (buildRow)
+```dart
+Widget _buildRow(WordPair pair) {
+  return ListTile(
+    title: Text(
+      pair.asPascalCase,
+      style: _biggerFont,
+    ),
+  );
+}
+```
+
+4. RandomWordsState 클래스에서 단어 생성 라이브러리를 직접 호출하기 보다는 buildSuggestions()를 사용하도록 build() 메소드를 업데이트 하세요.(Scaffold는 기본 Material 디자인 비주얼 레이아웃을 구현합니다.) 강조된  아래 코드로 메소드의 내부를 교체하세요.
+
+lib/main.dart (build)
+```dart
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: Text('Startup Name Generator'),
+    ),
+    body: _buildSuggestions(),
+  );
+}
+```
+
+5. MyApp 클래스에서 RandomWords 위젯이 되도록 title과 home을 변경하여, build() 메소드를 갱신하세요.
+
+{step3_stateful_widget → step4_infinite_list}/lib/main.dart
+```dart
+@@ -6,15 +6,8 @@    
+  class MyApp extends StatelessWidget {            
+    @override            
+    Widget build(BuildContext context) {            
+      return MaterialApp(            
+-       title: 'Welcome to Flutter',            
+-       home: Scaffold(            
++       title: 'Startup Name Generator',            
++       home: RandomWords(),            
+-         appBar: AppBar(            
+-         title: Text('Welcome to Flutter'),            
+-       ),            
+-       body: Center(            
+-         child: RandomWords(),            
+-       ),            
+-     ),            
+    );            
+  }
+```
+
+6. 앱을 재시작하세요. 당신이 얼만큼 스크롤하든지 문제없이 단어 쌍의 목록을 볼 수 있게 됩니다.
+
+![img](/img/flutter04.png)     
+(Android, iOS 출력 화면)
+
+## Next steps
+
+iOS와 Android에서 모두 실행되는 대화식 Flutter 앱을 작성했습니다. 이 코드 랩에서는 다음을 수행했습니다.
+
+* 처음부터 Flutter 앱을 만들었습니다.
+* 다트 코드 작성.
+* 외부의 타사 라이브러리를 활용했습니다.
+* 더 빠른 개발주기를 위해 핫 리로드를 사용했습니다.
+* 상태 저장 위젯을 구현했습니다.
+* 느리게 로드되고 무한 스크롤 목록을 작성했습니다.
+
+이 앱을 확장하려면 Google Developers Codelabs 사이트에서 2 단계로 진행하여 다음 기능을 추가하십시오.
+
+* 클릭 가능한 하트 아이콘을 추가하여 선호하는 페어링을 저장하여 대화 형 기능을 구현하십시오.
+* 저장된 즐겨 찾기가 포함 된 새 화면을 추가하여 새 경로로 탐색을 구현하십시오.
+* 테마 색상을 수정하여 흰색 앱을 만듭니다.
+
+![img](/img/flutter05.gif)     
+(The app from part2)
