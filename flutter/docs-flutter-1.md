@@ -1,5 +1,5 @@
 # <p align="center">[Flutter] 1. 첫번째 앱 만들어보기, part 1</p>
-  ![img](/img/flutter.jpg)
+  ![img](./img/flutter.jpg)
 > flutter 공식 문서인 https://flutter.dev/docs/get-started/codelab 내용을     
 > 바탕으로 재구성하였습니다. 
 
@@ -22,7 +22,7 @@ startup 회사를 위해 제안할 이름을 생성하는 간단한 모바일 �
 
 '완성된 App'을 통해 Part 1 에서 완성할 앱이 어떻게 동작하는지 확인 가능합니다.
 
-![img](/img/flutter01.gif)    
+![img](./img/flutter01.gif)    
 (완성된 App, 출처 : flutter 공식 문서)
 
 ``` bash
@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
 ```
 2. IDE의 녹색 화살포 버튼을 이용해서 앱을 실행하세요. 당신은 당신의 디바이스에 종속적으로 나오는 Android나 iOS 출력물을 보게 됩니다.
 
-![img](/img/flutter02.jpg)     
+![img](./img/flutter02.jpg)     
 (Android, iOS 출력 화면)
 
 ```
@@ -183,7 +183,7 @@ class MyApp extends StatelessWidget {
 
 5. 만약 앱이 구동중이라면, 실행중인 앱의 업데이트를 위해 핫 리로드 버튼을 사용하세요. 핫 리로드를 클릭하거나 프로젝트를 저장할 때마다 실행중인 앱에서 임의로 선택된 다른 단어 쌍을 볼 수 있습니다. 이것은 MaterialApp에서 렌더링이 필요하거나 Flutter Inspector에서 플랫폼을 토글할 때마다 실행되는 build 메소드 내부에서 단어 페어링이 실행되기 때문입니다.
 
-![img](/img/flutter03.png)     
+![img](./img/flutter03.png)     
 (Android, iOS 출력 화면)
 
 ## Step 3: Stateful 위젯 추가하기
@@ -365,7 +365,7 @@ Widget build(BuildContext context) {
 
 6. 앱을 재시작하세요. 당신이 얼만큼 스크롤하든지 문제없이 단어 쌍의 목록을 볼 수 있게 됩니다.
 
-![img](/img/flutter04.png)     
+![img](./img/flutter04.png)     
 (Android, iOS 출력 화면)
 
 ## Next steps
@@ -385,5 +385,5 @@ iOS와 Android에서 모두 실행되는 대화식 Flutter 앱을 작성했습�
 * 저장된 즐겨 찾기가 포함 된 새 화면을 추가하여 새 경로로 탐색을 구현하십시오.
 * 테마 색상을 수정하여 흰색 앱을 만듭니다.
 
-![img](/img/flutter05.gif)     
+![img](./img/flutter05.gif)     
 (The app from part2)
