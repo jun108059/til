@@ -40,9 +40,11 @@
 ## :pushpin:Machine Learning
  ● [컴퓨터는 데이터에서 배운다](https://github.com/jun108059/til/blob/master/machine-learning/01.%EC%BB%B4%ED%93%A8%ED%84%B0%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%97%90%EC%84%9C-%EB%B0%B0%EC%9A%B4%EB%8B%A4.md)   
  ● [간단한 분류 알고리즘 훈련](https://github.com/jun108059/til/blob/master/machine-learning/02.%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%B6%84%EB%A5%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%9B%88%EB%A0%A8.md)   
- ● [사이킷런을 타고 떠나는 머신 러닝 분류 모델 투어](https://github.com/jun108059/til/blob/master/machine-learning/03.%EC%82%AC%EC%9D%B4%ED%82%B7%EB%9F%B0-%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D-%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8.md)  
- 
- 
+ ● [사이킷런을 타고 떠나는 머신 러닝 분류 모델 투어](https://github.com/jun108059/til/blob/master/machine-learning/04.%EC%A2%8B%EC%9D%80-%ED%9B%88%EB%A0%A8-%EC%84%B8%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0:%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC.md)  
+ ● [차원 축소를 사용한 데이터 압축](https://github.com/jun108059/til/blob/master/machine-learning/05.%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%95%95%EC%B6%95.md)  
+
+
+
 ## :pushpin:Flutter
  ● [What is Flutter?](https://github.com/jun108059/til/blob/master/flutter/What-is-Flutter%3F.md)   
  ● [1. 첫번째 앱 만들어보기, part 1](https://github.com/jun108059/til/blob/master/flutter/docs-flutter-1.md)   
