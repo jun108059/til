@@ -49,6 +49,11 @@
  ● [What is Flutter?](https://github.com/jun108059/til/blob/master/flutter/What-is-Flutter%3F.md)   
  ● [1. 첫번째 앱 만들어보기, part 1](https://github.com/jun108059/til/blob/master/flutter/docs-flutter-1.md)   
  ● [1. 첫번째 앱 만들어보기, part 2](https://github.com/jun108059/til/blob/master/flutter/docs-flutter-2.md)   
+ ● [Mi Card App](https://github.com/jun108059/mi_card_flutter)  
+ ● [주사위 App](https://github.com/jun108059/dsc_flutter_app/tree/master/dicee-flutter)   
+ ● [카드이미지 App](https://github.com/jun108059/dsc_flutter_app/tree/master/StoryAppUI)   
+ ● [I-Am-Rich App](https://github.com/jun108059/dsc_flutter_app/tree/master/i_am_rich)   
+ ● [Magic-8-ball App](https://github.com/jun108059/dsc_flutter_app/tree/master/magic_8ball)   
  
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
