@@ -21,13 +21,9 @@
  
 ## :pushpin:Kubernetes
  ● [Overview](https://github.com/jun108059/til/blob/master/kubernetes/00.Overview.md)   
- 
  ● [Why Kubernetes?](https://github.com/jun108059/til/blob/master/kubernetes/01.WhyKubernetes.md)   
- 
  ● [VM vs Container](https://github.com/jun108059/til/blob/master/kubernetes/02.VMvsContainer.md)   
- 
  ● [Getting Started Kubernetes!](https://github.com/jun108059/til/blob/master/kubernetes/03.GettingStartedKubernetes.md)   
- 
  ● [Setting](https://github.com/jun108059/til/blob/master/kubernetes/05.PCSetting.md)   
 
 ## :pushpin:Docker
@@ -53,7 +49,8 @@
  ● [주사위 App](https://github.com/jun108059/dsc_flutter_app/tree/master/dicee-flutter)   
  ● [카드이미지 App](https://github.com/jun108059/dsc_flutter_app/tree/master/StoryAppUI)   
  ● [I-Am-Rich App](https://github.com/jun108059/dsc_flutter_app/tree/master/i_am_rich)   
- ● [Magic-8-ball App](https://github.com/jun108059/dsc_flutter_app/tree/master/magic_8ball)   
+ ● [Magic-8-ball App](https://github.com/jun108059/dsc_flutter_app/tree/master/magic_8ball)  
+ ● [Chat App](https://github.com/jun108059/dsc_flutter_app/tree/master/chat_app_firebase)   
  
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
