@@ -38,7 +38,7 @@
  ● [간단한 분류 알고리즘 훈련](https://github.com/jun108059/til/blob/master/machine-learning/02.%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%B6%84%EB%A5%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%9B%88%EB%A0%A8.md)   
  ● [사이킷런을 타고 떠나는 머신 러닝 분류 모델 투어](https://github.com/jun108059/til/blob/master/machine-learning/04.%EC%A2%8B%EC%9D%80-%ED%9B%88%EB%A0%A8-%EC%84%B8%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0:%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC.md)  
  ● [차원 축소를 사용한 데이터 압축](https://github.com/jun108059/til/blob/master/machine-learning/05.%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%95%95%EC%B6%95.md)  
-
+ ● [다양한 모델을 결합한 앙상블 학습](https://github.com/jun108059/til/blob/master/machine-learning/07.%EB%8B%A4%EC%96%91%ED%95%9C-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EA%B2%B0%ED%95%A9%ED%95%9C-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5.md)
 
 
 ## :pushpin:Flutter
