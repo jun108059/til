@@ -54,6 +54,7 @@
  ● [I-Am-Rich App](https://github.com/jun108059/dsc_flutter_app/tree/master/i_am_rich)   
  ● [Magic-8-ball App](https://github.com/jun108059/dsc_flutter_app/tree/master/magic_8ball)  
  ● [Chat App](https://github.com/jun108059/dsc_flutter_app/tree/master/chat_app_firebase)   
+ ● [Firebase란?](https://github.com/jun108059/til/blob/master/flutter/Firebase.md)
  
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
