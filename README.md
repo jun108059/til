@@ -12,7 +12,8 @@
 #### 3. [Docker](#pushpindocker)
 #### 4. [Machine Learning](#pushpinmachine-learning)
 #### 5. [Flutter](#pushpinflutter)
-#### 6. [News](#newspapernews)
+#### 6. [Python](#pushpinpython)
+#### 7. [News](#newspapernews)
 
 ![img](kubernetes/img/til.JPG)   
 
@@ -57,5 +58,9 @@
  ● [Chat App](https://github.com/jun108059/dsc_flutter_app/tree/master/chat_app_firebase)   
  ● [Firebase란?](https://github.com/jun108059/til/blob/master/flutter/Firebase.md)
  
+## :pushpin:Python  
+ ● [아나콘다(Anaconda)란?](https://github.com/jun108059/til/blob/master/python/%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%EB%9E%80%3F.md)
+
+
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
