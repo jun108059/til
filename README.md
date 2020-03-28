@@ -61,6 +61,7 @@
 ## :pushpin:Python  
  ● [아나콘다(Anaconda)란?](https://github.com/jun108059/til/blob/master/python/%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%EB%9E%80%3F.md)   
  ● [Python이란?](https://github.com/jun108059/til/blob/master/python/Python%EC%9D%B4%EB%9E%80%3F.md)   
+ ● [Python으로 무엇을 할 수 있을까?](https://github.com/jun108059/til/blob/master/python/Python%EC%9D%B4%EB%9E%80%3F.md)   
 
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
