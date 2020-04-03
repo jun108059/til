@@ -64,7 +64,8 @@
  ● [Python으로 무엇을 할 수 있을까?](https://github.com/jun108059/til/blob/master/python/What-can-I-do-with-python.md)   
  ● [Python functions 연습문제](https://github.com/jun108059/til/blob/master/python/EX3_functions.ipynb)   
  ● [Python functions 연습문제 풀이 영상](https://youtu.be/P4Db2eZ71Iw)
- 
+ ● [Python Turtle 설명 및 실습](https://youtu.be/MQNVdEqcdRQ)  
+  
  
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
