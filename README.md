@@ -4,6 +4,7 @@
 > ### Today I Learned
 :baby_chick:하루하루 공부한 내용을 적습니다.
 
+[내가 보려고 만든 마크다운 작성 문법 정리](https://github.com/jun108059/til/blob/master/myMarkDown.md)
 
 ## :open_book:Categories
 
@@ -69,4 +70,5 @@
   
  
 ## :newspaper:News
- ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)  
+ ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/news/01.2020-Industry-trends.md)   
+ ● [더 ‘쉬운’ 쿠버네티스를 위한 11가지 도구](https://github.com/jun108059/til/blob/master/news/02.%EB%8D%94_%EC%89%AC%EC%9A%B4_%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4_%EB%8F%84%EA%B5%AC.md)  
