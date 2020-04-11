@@ -1,3 +1,9 @@
+
+## Tistory 블로그에 정리했다!   
+https://dev-youngjun.tistory.com/37
+
+---
+
 # GCP Essentials - Qwiklabs 실습 개요
 
 <p>&nbsp;</p>
