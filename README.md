@@ -9,12 +9,13 @@
 ## :open_book:Categories
 
 #### 1. [Algorithm](#pushpinalgorithm)
-#### 2. [Kubernetes](#pushpinkubernetes)   
-#### 3. [Docker](#pushpindocker)
-#### 4. [Machine Learning](#pushpinmachine-learning)
-#### 5. [Flutter](#pushpinflutter)
-#### 6. [Python](#pushpinpython)
-#### 7. [News](#newspapernews)
+#### 2. [Kubernetes](#pushpinkubernetes)  
+#### 3. [Docker](#pushpindocker)  
+#### 4. [GCP](#pushpingcpgoogle-cloud-platform)  
+#### 5. [Machine Learning](#pushpinmachine-learning)
+#### 6. [Flutter](#pushpinflutter)
+#### 7. [Python](#pushpinpython)
+#### 8. [News](#newspapernews)
 
 ![img](kubernetes/img/til.JPG)   
 
