@@ -44,6 +44,7 @@
  ● [GCP Essentials - 가상 머신 만들기 실습](https://github.com/jun108059/til/blob/master/docker/01.Docker-installation.md)  
  ● [GCP Essentials - Cloud Shell 및 gcloud 시작하기](https://github.com/jun108059/til/blob/master/GCP/03.GCP-Essentials-CloudShell%2Bgcloud.md)   
  ● [GCP Essentials - Kubernetes Engine 사용하기](https://dev-youngjun.tistory.com/40)   
+ ● [Cloud Architecture - Kubernetes를 통한 클라우드 조정](https://dev-youngjun.tistory.com/49)    
 
 
 ## :pushpin:Machine Learning
