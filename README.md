@@ -82,7 +82,8 @@
  ● [Python Generator 연습문제 풀이 영상](https://www.youtube.com/watch?v=D6IGf8Db00E)   
   
 ## :pushpin:Git
- ● [Git이란?](https://dev-youngjun.tistory.com/43)
+ ● [Git이란?](https://dev-youngjun.tistory.com/43)  
+ ● [Git 설치 및 커멘드 사용법](https://dev-youngjun.tistory.com/44)  
 
   
   
