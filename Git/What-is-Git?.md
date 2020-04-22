@@ -1,3 +1,6 @@
+## Tistory에 정리했다!
+https://dev-youngjun.tistory.com/43
+
 <p>&nbsp;</p>
 <h2>&nbsp;</h2>
 <blockquote style="font-size: 1.12em;" data-ke-style="style3"><b>Git 기초 공부하기 목차<br /></b><a href="https://dev-youngjun.tistory.com/7" target="_blank" rel="noopener">(1) 2020/02/29 - [Git] - Visual Studio Code에 Github 연동하기</a><br /><b>(2) 2020/04/16 - [Git] - Git 이란?</b><br /><a href="https://dev-youngjun.tistory.com/44" target="_blank" rel="noopener">(3) 2020/04/17 - [Git] - Git 설치 및 커멘드 사용법</a><br /><a href="https://dev-youngjun.tistory.com/45" target="_blank" rel="noopener">(4) 2020/04/18 - [Git] - Git Branch 사용하기</a><br /><a href="https://dev-youngjun.tistory.com/46" target="_blank" rel="noopener">(5) 2020/04/19 - [Git] - Git remote 원격 저장소와 Github</a><br /><a href="https://dev-youngjun.tistory.com/47" target="_blank" rel="noopener">(6) 2020/04/20 - [Git] - Git - Pull Request 활용하기</a></blockquote>
