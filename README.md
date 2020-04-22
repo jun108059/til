@@ -15,7 +15,8 @@
 #### 5. [Machine Learning](#pushpinmachine-learning)
 #### 6. [Flutter](#pushpinflutter)
 #### 7. [Python](#pushpinpython)
-#### 8. [News](#newspapernews)
+#### 8. [Git](#pushpingit)
+#### 9. [News](#newspapernews)
 
 ![img](kubernetes/img/til.JPG)   
 
@@ -79,6 +80,10 @@
  ● [Python Turtle 설명 및 실습 영상](https://youtu.be/MQNVdEqcdRQ)  
  ● [Python Generator 연습문제](https://github.com/jun108059/til/blob/master/python/Ex6-generator.ipynb)   
  ● [Python Generator 연습문제 풀이 영상](https://www.youtube.com/watch?v=D6IGf8Db00E)   
+  
+## :pushpin:Git
+ ● [Git이란?](https://dev-youngjun.tistory.com/43)
+
   
   
 ## :newspaper:News
