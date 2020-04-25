@@ -84,7 +84,8 @@
 ## :pushpin:Git
  ● [Git이란?](https://dev-youngjun.tistory.com/43)  
  ● [Git 설치 및 커멘드 사용법](https://dev-youngjun.tistory.com/44)  
- ● [Git Branch 사용하기](https://dev-youngjun.tistory.com/45)  
+ ● [Git Branch 사용하기](https://dev-youngjun.tistory.com/45)   
+ ● [GitHub 원격저장소 사용하기](https://dev-youngjun.tistory.com/46)  
 
 
 ## :newspaper:News
