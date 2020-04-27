@@ -87,6 +87,7 @@
  ● [Git Branch 사용하기](https://dev-youngjun.tistory.com/45)   
  ● [GitHub 원격저장소 사용하기](https://dev-youngjun.tistory.com/46)  
  ● [Git Pull Request 활용하기](https://dev-youngjun.tistory.com/47)  
+ ● [VS Code에 Github 연동하기](https://dev-youngjun.tistory.com/7)
 
 
 ## :newspaper:News
