@@ -83,7 +83,8 @@
  ● [Python Generator 연습문제 풀이 영상](https://www.youtube.com/watch?v=D6IGf8Db00E)   
  ● [PyGame이란?](https://github.com/jun108059/til/blob/master/python/PyGame.pdf)   
  ● [PyGame 시연 영상](https://www.youtube.com/watch?v=EpOXZ7xjKxI)   
-  
+ ● [Python Web Crawling 과제](https://github.com/jun108059/til/blob/master/python/Web-crawling.ipynb)   
+
 ## :pushpin:Git
  ● [Git이란?](https://dev-youngjun.tistory.com/43)  
  ● [Git 설치 및 커멘드 사용법](https://dev-youngjun.tistory.com/44)  
