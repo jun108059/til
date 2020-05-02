@@ -24,6 +24,7 @@
  ● [SWEA](https://github.com/jun108059/Algorithm/tree/master/SWEA)   
  ● [Programmers](https://github.com/jun108059/Algoritm/tree/master/Programmers)   
  ● [Python](https://github.com/jun108059/Algorithm/tree/master/Python)   
+ ● [LeetCode](https://github.com/jun108059/Algorithm/tree/master/LeetCode/MayLeetCodingChallenge/Week1)   
    
  
 ## :pushpin:Kubernetes
