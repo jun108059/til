@@ -47,4 +47,5 @@
 [Jewels and Stones](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/02.Jewels_and_Stones.java)   
 [Ransom Note](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/03.Ransom-Note.java)   
 [Number complement](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/04.Number-complement.java)  
-[First Unique Character in a String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/05.FirstUniqueCharacter.java)  
+[First Unique Character in a String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/05.FirstUniqueCharacter.java)   
+[Majority Element](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/06.Majority-Element.java)
