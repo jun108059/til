@@ -48,4 +48,5 @@
 [Ransom Note](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/03.Ransom-Note.java)   
 [Number complement](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/04.Number-complement.java)  
 [First Unique Character in a String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/05.FirstUniqueCharacter.java)   
-[Majority Element](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/06.Majority-Element.java)
+[Majority Element](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/06.Majority-Element.java)  
+[Cousins in Binary Tree](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/07.Cousins-in-Binary-Tree.java)
