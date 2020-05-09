@@ -50,4 +50,5 @@
 [First Unique Character in a String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/05.FirstUniqueCharacter.java)   
 [Majority Element](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/06.Majority-Element.java)  
 [Cousins in Binary Tree](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week1/07.Cousins-in-Binary-Tree.java)   
-[Check If It Is a Straight Line](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/08.Check-Straight-Line.java)
+[Check If It Is a Straight Line](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/08.Check-Straight-Line.java)  
+[Valid Perfect Square](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/09.Valid-Perfect-Square.java)  
