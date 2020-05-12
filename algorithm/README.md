@@ -53,3 +53,8 @@
 [Check If It Is a Straight Line](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/08.Check-Straight-Line.java)  
 [Valid Perfect Square](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/09.Valid-Perfect-Square.java)    
 [Find the Town Judge](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/10.Find-the-Town-Judge.java)    
+[Flood Fill](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/11.Flood-Fill.java)   
+[Single Element in a Sorted Array](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/12.Single-Element-Sorted-Array.java)   
+
+ 
+
