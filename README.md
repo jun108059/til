@@ -74,7 +74,8 @@
 ## :pushpin:Python  
  ● [아나콘다(Anaconda)란?](https://github.com/jun108059/til/blob/master/python/%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%EB%9E%80%3F.md)   
  ● [Python이란?](https://github.com/jun108059/til/blob/master/python/Python%EC%9D%B4%EB%9E%80%3F.md)   
- ● [Python으로 무엇을 할 수 있을까?](https://github.com/jun108059/til/blob/master/python/What-can-I-do-with-python.md)   
+ ● [Python으로 무엇을 할 수 있을까?](https://github.com/jun108059/til/blob/master/python/What-can-I-do-with-python.md)  
+ ● [Python Lists and String 연습문제](https://github.com/jun108059/til/blob/master/python/ListsAndString.py)  
  ● [Python functions 연습문제](https://github.com/jun108059/til/blob/master/python/EX3_functions.ipynb)   
  ● [Python functions 연습문제 풀이 영상](https://youtu.be/P4Db2eZ71Iw)  
  ● [Python Turtle이란?](https://youtu.be/MQNVdEqcdRQ)  
