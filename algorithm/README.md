@@ -55,6 +55,5 @@
 [Find the Town Judge](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/10.Find-the-Town-Judge.java)    
 [Flood Fill](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/11.Flood-Fill.java)   
 [Single Element in a Sorted Array](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/12.Single-Element-Sorted-Array.java)   
-
- 
+[Remove K Digits](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/13.Remove-K-Digits.java)
 
