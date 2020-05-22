@@ -57,3 +57,11 @@
 [Single Element in a Sorted Array](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/12.Single-Element-Sorted-Array.java)   
 [Remove K Digits](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/13.Remove-K-Digits.java)   
 [Implement Trie (Prefix Tree)](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week2/14.Implement-Trie.java)  
+[Maximum Sum Circular Subarray](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/15.Maximum-Sum-Circular-Subarray.java)   
+[Odd Even Linked List](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/16.Odd-Even-Linked-List.java)   
+[Find All Anagrams in a String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/17.Find-All-Anagrams-in-a-String.java)   
+[Permutation in String](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/18.Permutation-in-String.java)   
+[Online Stock Span](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/19.Online-Stock-Span.java)   
+[Kth Smallest Element in a BST](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/20.Kth-Smallest-Element-in-a-BTS.java)   
+[Count Square Submatrices with All Ones](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/21.Count-Square-Submatrices-with-All-Ones.java)  
+
