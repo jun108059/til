@@ -1,6 +1,8 @@
 
 # TIL  
-![Blog](https://img.shields.io/badge/Blog-jun108059.github.io-red?logo=GitHub)  
+![Blog](https://img.shields.io/badge/Blog-jun108059.github.io-red?logo=GitHub) 
+[![HitCount](http://hits.dwyl.com/jun108059/til.svg)](http://hits.dwyl.com/jun108059/til)
+
 > ### Today I Learned
 :baby_chick:하루하루 공부한 내용을 적습니다.
 
