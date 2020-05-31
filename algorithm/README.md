@@ -64,4 +64,10 @@
 [Online Stock Span](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/19.Online-Stock-Span.java)   
 [Kth Smallest Element in a BST](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/20.Kth-Smallest-Element-in-a-BTS.java)   
 [Count Square Submatrices with All Ones](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week3/21.Count-Square-Submatrices-with-All-Ones.java)  
-
+[Uncrossed Lines](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week4/25.Uncrossed-Lines.java)  
+[Contiguous Array](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week4/26.Contiguous-Array.java)  
+[Possible Bipartition](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week4/27.Possible-Bipartition.java)   
+[Counting Bits](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week4/28.Counting-Bits.java)  
+[Course Schedule](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week5/29.Course-Schedule.java)  
+[K Closest Points to Origin](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week5/30.K-Closest-Points-to-Origin.java)   
+[Edit Distance](https://github.com/jun108059/Algorithm/blob/master/LeetCode/MayLeetCodingChallenge/Week5/31.Edit-Distance.java)   
