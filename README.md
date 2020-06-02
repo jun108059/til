@@ -18,7 +18,8 @@
 #### 6. [Flutter](#pushpinflutter)
 #### 7. [Python](#pushpinpython)
 #### 8. [Git](#pushpingit)
-#### 9. [News](#newspapernews)
+#### 9. [UX/UI](#pushpinuxui)
+#### 10. [News](#newspapernews)
 
 ![img](kubernetes/img/til.JPG)   
 
@@ -94,7 +95,11 @@
  ● [Git Branch 사용하기](https://dev-youngjun.tistory.com/45)   
  ● [GitHub 원격저장소 사용하기](https://dev-youngjun.tistory.com/46)  
  ● [Git Pull Request 활용하기](https://dev-youngjun.tistory.com/47)  
- ● [VS Code에 Github 연동하기](https://dev-youngjun.tistory.com/7)
+ ● [VS Code에 Github 연동하기](https://dev-youngjun.tistory.com/7)  
+
+## :pushpin:UX/UI
+ ● [Draw.io로 화면 흐름 기획하기](https://github.com/jun108059/til/blob/master/UX%26UI/01.DrawIO-Screen-Flow-Design.md)  
+ ● [Adobe XD로 Wires를 이용한 디자인](https://github.com/jun108059/til/blob/master/UX%26UI/02.AdobeXD-Wires-Design.md)  
 
 
 ## :newspaper:News
