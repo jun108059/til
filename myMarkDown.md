@@ -183,6 +183,28 @@
 
 [![Vue](kubernetes/img/til.JPG)](https://github.com/jun108059/til)
 
+
+### 이미지 크기 조정
+> Github에서 이미지 크기 조절 markdown 문법으로 작용하지 않는다.   
+> html 문법의 `<img>`영역을 직접 텍스트로 입력해서 변환하는게 좋다.  
+
+#### (1)직접 사이즈를 지정하는 방법
+
+```markdown
+<img src="kubernetes/img/til.JPG" width="150" height="50">
+```
+
+<img src="kubernetes/img/til.JPG" width="150" height="50">
+
+
+#### (2)비율로 지정하는 방법(%)
+
+```markdown
+<img src="kubernetes/img/til.JPG" width="30%" height="30%">
+```
+
+<img src="kubernetes/img/til.JPG" width="30%" height="30%">
+
 <br><br>
 
 ## 코드(Code) 강조
