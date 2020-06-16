@@ -89,6 +89,8 @@
  ● [PyGame이란?](https://github.com/jun108059/til/blob/master/python/PyGame.pdf)   
  ● [PyGame 시연 영상](https://www.youtube.com/watch?v=EpOXZ7xjKxI)   
  ● [Python Web Crawling 과제](https://github.com/jun108059/til/blob/master/python/Web-crawling.ipynb)   
+ ● [Python Django 응용 - 소셜로그인 구현 영상](https://www.youtube.com/watch?v=2oTtswFyE0g&t=1306s)   
+ 
 
 ## :pushpin:Git
  ● [Git이란?](https://dev-youngjun.tistory.com/43)  
