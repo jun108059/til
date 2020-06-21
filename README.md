@@ -7,7 +7,8 @@
 :baby_chick:하루하루 공부한 내용을 적습니다.
 
 ### Markdown
-🌠[내가 보려고 만든 마크다운 작성 문법 정리](https://dev-youngjun.tistory.com/51)
+🌠[내가 보려고 만든 마크다운 작성 문법 정리](https://dev-youngjun.tistory.com/51)   
+🌠[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/techInterview.md)   
 
 ## :open_book:Categories
 
