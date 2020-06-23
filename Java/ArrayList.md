@@ -4,7 +4,7 @@
 아래 예제는 [java2s](http://www.java2s.com/) 의 예제에서 가져왔고, 주석으로 설명을 추가했다.
 
 
-### ArrayList add, remove
+### 🔻 ArrayList add, remove
 
 ```java
 import java.util.ArrayList;
@@ -89,3 +89,4 @@ ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
 
 http://www.java2s.com/   
 https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html   
+https://programmers.co.kr/learn/courses/17/lessons/805    
