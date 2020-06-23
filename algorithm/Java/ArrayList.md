@@ -55,6 +55,37 @@ public class Main {
 } 
 ```
 
+#### 🍯 ArrayList 마지막 index 삭제하는 방법
+```java
+list.remove(list.size() - 1);
+```
+> oracle 공식 문서 java7 ArrayList part를 참고했다.  
+
+#### 🍯 ArrayList ➡️ Array(배열) 변환 방법
+toArray() 메소드 활용
+```java
+ArrayList<String> arrayList = new ArrayList<>();
+
+arrayList.add("Java");
+arrayList.add("Python");
+arrayList.add("YoungJun");
+
+String[] array = arrayList.toArray(new String[arrayList.size()]);
+```
+
+#### ♻️ Array(배열) ➡️ ArrayList 변환 방법
+asList() 메소드 활용
+```java
+String[] array = new String[3];
+
+array[0] = "YoungJun";
+array[1] = "Java";
+array[2] = "Python";
+
+ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
+```
+
 ### Reference
 
-http://www.java2s.com/
+http://www.java2s.com/   
+https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html   
