@@ -21,7 +21,8 @@
 #### 7. [Python](#pushpinpython)
 #### 8. [Git](#pushpingit)
 #### 9. [UX/UI](#pushpinuxui)
-#### 10. [News](#newspapernews)
+#### 10. [Web development](#pushpinweb-development)
+#### 11. [News](#newspapernews)
 
 ![img](kubernetes/img/til.JPG)   
 
@@ -105,6 +106,10 @@
 ## :pushpin:UX/UI
  ● [Draw.io로 화면 흐름 기획하기](https://github.com/jun108059/til/blob/master/UX%26UI/01.DrawIO-Screen-Flow-Design.md)  
  ● [Adobe XD로 Wires를 이용한 디자인](https://github.com/jun108059/til/blob/master/UX%26UI/02.AdobeXD-Wires-Design.md)  
+
+## :pushpin:Web Development
+ ● [Client Side](https://github.com/jun108059/Web-Study/tree/master/Client-side)  
+ ● [Server Side](https://github.com/jun108059/Web-Study)  
 
 
 ## :newspaper:News
