@@ -1,14 +1,26 @@
 
-# TIL  
-![Blog](https://img.shields.io/badge/Blog-jun108059.github.io-red?logo=GitHub) 
-[![HitCount](http://hits.dwyl.com/jun108059/til.svg)](http://hits.dwyl.com/jun108059/til)
+<p align="center">
+    <img width="300px" src="image/til.PNG" align="center" alt="Membership" />
+    <h2 align="center">Today Youngjun Learned</h2>
+    <p align="center">공부한거 까먹지 말고 적어놓자😆</p>
+</p>
 
-> ### Today I Learned
-:baby_chick:하루하루 공부한 내용을 적습니다.
+<p align="center">
+    <a href="https://dev-youngjun.tistory.com/">
+        <img alt="Blog" src="https://img.shields.io/badge/-Tistory-red?logo=GitHub"/>
+    </a>
+    <a href="http://hits.dwyl.com/jun108059/til">
+    <img alt="hits" src="http://hits.dwyl.com/jun108059/til.svg"/>
+    </a>
+    <br />
+    <br />
+</p>
+
+--- 
 
 ### Markdown
-🌠[내가 보려고 만든 마크다운 작성 문법 정리](https://dev-youngjun.tistory.com/51)   
-🌠[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/techInterview.md)   
+💡[내가 보려고 만든 마크다운 작성 문법 정리](https://dev-youngjun.tistory.com/51)   
+💡[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/techInterview.md)   
 
 ## :open_book:Categories
 
@@ -24,7 +36,7 @@
 #### 10. [Web development](#pushpinweb-development)
 #### 11. [News](#newspapernews)
 
-![img](kubernetes/img/til.JPG)   
+
 
 ## :pushpin:Algorithm
  ● [SWEA](https://github.com/jun108059/Algorithm/tree/master/SWEA)   
