@@ -78,7 +78,7 @@
 
 
 ## :pushpin:Flutter
- ● [What is Flutter?](https://github.com/jun108059/til/blob/master/flutter/What-is-Flutter%3F.md)   
+ ● [What is Flutter?](https://github.com/jun108059/til/blob/master/flutter/What-is-Flutter.md)   
  ● [윈도우10 Flutter 개발 환경 구축하기 - SDK 설치](https://github.com/jun108059/til/blob/master/flutter/Flutter_Dev_Env_Windows10.md)   
  ● [1. 첫번째 앱 만들어보기, part 1](https://github.com/jun108059/til/blob/master/flutter/docs-flutter-1.md)   
  ● [1. 첫번째 앱 만들어보기, part 2](https://github.com/jun108059/til/blob/master/flutter/docs-flutter-2.md)   
@@ -91,8 +91,8 @@
  ● [Firebase란?](https://github.com/jun108059/til/blob/master/flutter/Firebase.md)
  
 ## :pushpin:Python  
- ● [아나콘다(Anaconda)란?](https://github.com/jun108059/til/blob/master/python/%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%EB%9E%80%3F.md)   
- ● [Python이란?](https://github.com/jun108059/til/blob/master/python/Python%EC%9D%B4%EB%9E%80%3F.md)   
+ ● [아나콘다(Anaconda)란?](https://github.com/jun108059/til/blob/master/python/%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%EB%9E%80.md)   
+ ● [Python이란?](https://github.com/jun108059/til/blob/master/python/Python%EC%9D%B4%EB%9E%80.md)   
  ● [Python으로 무엇을 할 수 있을까?](https://github.com/jun108059/til/blob/master/python/What-can-I-do-with-python.md)  
  ● [Python Lists and String 연습문제](https://github.com/jun108059/til/blob/master/python/ListsAndString.py)  
  ● [Python functions 연습문제](https://github.com/jun108059/til/blob/master/python/EX3_functions.ipynb)   
