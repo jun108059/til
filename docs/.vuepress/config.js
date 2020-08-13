@@ -6,5 +6,8 @@ module.exports = {
         { text: 'Home', link: '/' }
       ],
       sidebar: 'auto' // h1~h6 같은 heading tag를 기준으로 sidebar를 만들어줌
-    }
+    },
+    plugins: [
+        '@vuepress/back-to-top',
+    ]
   }
