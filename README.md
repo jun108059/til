@@ -60,13 +60,13 @@
  ● [Docker Practice](https://github.com/jun108059/til/blob/master/docker/03.Docker-Practice.md)  
 
 ## :pushpin:GCP(Google Cloud Platform)
- ● [GCP 용어 정리](https://dev-youngjun.tistory.com/28)  
- ● [GCP Essentials - Qwiklabs 개요](https://github.com/jun108059/til/blob/master/docker/00.WhatIsDocker.md)   
- ● [GCP Essentials - 가상 머신 만들기 실습](https://github.com/jun108059/til/blob/master/docker/01.Docker-installation.md)  
+ ● [GCP 용어 정리](https://github.com/jun108059/til/blob/master/GCP/00.GCP-basic-terms.md)  
+ ● [GCP Essentials - Qwiklabs 개요](https://github.com/jun108059/til/blob/master/GCP/01.GCP-Essentials-Qwiklabs.md)   
+ ● [GCP Essentials - 가상 머신 만들기 실습](https://github.com/jun108059/til/blob/master/GCP/02.GCP-Essentials-make-VM.md)  
  ● [GCP Essentials - Cloud Shell 및 gcloud 시작하기](https://github.com/jun108059/til/blob/master/GCP/03.GCP-Essentials-CloudShell%2Bgcloud.md)   
- ● [GCP Essentials - Kubernetes Engine 사용하기](https://dev-youngjun.tistory.com/40)   
- ● [Cloud Architecture - Qwiklabs 개요](https://dev-youngjun.tistory.com/48)    
- ● [Cloud Architecture - Kubernetes를 통한 클라우드 조정](https://dev-youngjun.tistory.com/49)    
+ ● [GCP Essentials - Kubernetes Engine 사용하기](https://github.com/jun108059/til/blob/master/GCP/04.GCP-Essentials-Kubernetes-Engine.md)   
+ ● [Cloud Architecture - Qwiklabs 개요](https://github.com/jun108059/til/blob/master/GCP/06.Cloud-Architecture.md)    
+ ● [Cloud Architecture - Kubernetes를 통한 클라우드 조정](https://github.com/jun108059/til/blob/master/GCP/07.Cloud-Architecture-Kubernetes.md)    
 
 
 ## :pushpin:Machine Learning
