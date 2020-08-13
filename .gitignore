@@ -5,3 +5,4 @@ gh-pages.pub
 *.log
 yarn.lock
 .vuepress/dist/
+.vscode
