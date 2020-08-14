@@ -1,5 +1,5 @@
 # <p align="center">[Flutter] 1. 첫번째 앱 만들어보기, part 2</p>
-  ![img](./img/flutter.jpg)  
+  ![img](/docs/.vuepress/public/images/img-flutter/flutter.jpg)  
 > flutter 공식 문서인 https://flutter.dev/docs/get-started/codelab 내용을     
 > 바탕으로 재구성하였습니다. 
 
@@ -26,7 +26,7 @@ Flutter는 iOS 및 Android에서 고품질의 기본 인터페이스를 제작�
 이동 합니다.
 
 애니메이션 GIF는 완성 된 앱의 작동 방식을 보여줍니다.    
-![img](./img/flutter06.gif)     
+![img](/docs/.vuepress/public/images/img-flutter/flutter06.gif)     
 (The app from part2)
 
 ## 2. Flutter 환경 설정
@@ -117,7 +117,7 @@ Widget _buildRow(WordPair pair) {
 
 * 앱을 핫 리로드하십시오. 이제 각 행에 열린 마음이 표시되지만 아직 대화 형이 아닙니다.    
 
-![img](./img/flutter07.png)     
+![img](/docs/.vuepress/public/images/img-flutter/flutter07.png)     
 (Android & iOS)    
 
 
@@ -165,7 +165,7 @@ Tip: Flutter의 반응 스타일 프레임 워크에서 호출 하면 State 객�
 앱을 핫 리로드하십시오. 항목을 즐겨 찾기 또는 즐겨 찾기로 타일을 탭할 수 있어야합니다. 
 타일을 두드리면 탭 포인트에서 나오는 암묵적 잉크 얼룩 애니메이션이 생성됩니다.    
 
-![img](./img/flutter08.png)     
+![img](/docs/.vuepress/public/images/img-flutter/flutter08.png)     
 (Android & iOS)    
 
 
@@ -307,7 +307,7 @@ void _pushSaved() {
 즐겨 찾기가 포함 된 새 경로가 나타납니다. 네비게이터는 "뒤로"버튼을 앱 표시 줄에 추가합니다.  
 Navigator.pop을 명시 적으로 구현할 필요는 없습니다. 홈 버튼으로 돌아가려면 뒤로 버튼을 탭하십시오.    
 
-![img](/img/flutter09.png)     
+![img](/docs/.vuepress/public/images/img-flutter/flutter09.png)     
 (Android & iOS)    
 
 
@@ -343,7 +343,7 @@ Material 라이브러리 의 Colors 클래스는 재생할 수있는 많은 색�
 핫 리로드는 UI를 빠르고 쉽게 실험 할 수 있습니다.    
 
 
-![img](./img/flutter10.png)     
+![img](/docs/.vuepress/public/images/img-flutter/flutter10.png)     
 (Android & iOS)    
 
 ## 8. Well done!

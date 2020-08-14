@@ -61,13 +61,14 @@ Flutter는 어떤 새롭고 흥미로운 점이 있을까요?
 애플은 iOS SDK를 2008년에 릴리즈했고, 구글은 Android SDK를 2009년에 릴리즈 했습니다. 
 이 두 SDK들은 각기 다른 언어를 기반으로 하고 있죠: **Objetive-C, JAVA**  
 
-![img](./img/Flutter01.png)  
+![img](/docs/.vuepress/public/images/img-flutter/Flutter01.png)  
 
 여기서 앱은 위젯을 만들고 카메라와 같은 서비스에 접근하기 위해 플랫폼과 직접 대화를 합니다. 
 위젯들은 스크린 캔버스에 렌더가 되고, 화면에서 발생된 이벤트들은 다시 해당 위젯으로 보내지게 됩니다. 
 매우 간단한 구조이죠. 하지만, 각 플랫폼마다 위젯은 다르고 언어 또한 다르기 때문에, 
 위의 구조에서는 각 플랫폼마다 독립적인 앱을 만들어야합니다.
 <br>
+
 #### WebViews  
 
 하나의 코드로 여러개의 환경에서 동작하는 크로스 플랫폼 프레임워크를 향한 첫번째 시도는 
@@ -76,7 +77,7 @@ PhoneGap, Apache Cordova, Ionic 등등이 여기에 속합니다.
 iOS SDK를 릴리즈하기 전, 애플이 아이폰 개발자들에게 웹앱을 만들라고 권장한 사실을 생각해보면, 
 Web 기술을 이용한 크로스 플랫폼의 등장은 어쩌면 당연한 절차였는지 모르겠습니다.
 
-![img](./img/Flutter02.png)  
+![img](/docs/.vuepress/public/images/img-flutter/Flutter02.png)  
 
 WebView 기반의 앱은 HTML을 만들고 이를 플랫폼 내부의 WebView를 통해 사용자에게 보여주는 방식입니다. 
 하지만, JavaScript와 같은 언어가 직접적으로 네이티브 코드(위의 서비스와 같은)와 소통하는것은 그리 쉬운 일이아닙니다. 
@@ -91,20 +92,21 @@ WebView 기반의 앱은 HTML을 만들고 이를 플랫폼 내부의 WebView를
 이전보다 웹뷰 생성을 매우 쉽게 만들어주었다는 점에서 큰 인기를 얻게 되었습니다. 
 2015년에 공개된 React Native는 리액티브 스타일의 뷰들이 가지고 있는 다양한 장점들을 모바일 앱에 적용하기 위해 만들어졌습니다.
 
-![img](./img/Flutter03.jpg)  
+![img](/docs/.vuepress/public/images/img-flutter/Flutter03.jpg)  
 
 React Native는 현재 엄청난 인기를 누리고 있지만, JavaScript 영역의 코드가 네이티브 영역에 있는 OEM 위젯에 
 접속을 하기위해서 결국 브릿지를 거치게 됩니다. 리액티브 뷰에서는 OEM 위젯에 굉장히 자주 접근하게 되고 
 (사용자가 화면에서 스와이프 한번을 했을때 최대 초당 60번까지도 접근), 이는 결국 퍼포먼스 이슈를 야기하게 됩니다. 
-React Native에 대한 [한 글](https://medium.com/@talkol/performance-limitations-of-react-native-and-how-to-overcome-them-947630d7f440)에서는 이에 대해 다음과 같이 이야기하고 있습니다.
+React Native에 대한 [어떤 글](https://medium.com/@talkol/performance-limitations-of-react-native-and-how-to-overcome-them-947630d7f440)에서는 이에 대해 다음과 같이 이야기하고 있습니다.
 
 > React Native의 성능을 이해하는 주된 열쇠가 여기에 있다. 각 영역 그 자체는 엄청나게 빠르다. 
 성능의 병목은 주로 하나의 영역에서 다른 영역으로 넘어갈때 발생한다. 
 고성능의 React Native 앱을 구축하기 위해서는, 이 브릿지를 건너는 횟수를 최소화해야한다.  
 
 ## Flutter
+
 Flutter는 React Native와 마찬가지로 리액티브 스타일 뷰를 제공하고 있습니다. 
-하지만, Flutter는 [Dart](https://dart.dev/"Dart 공식 홈페이지")라는 컴파일 프로그래밍 언어를 이용해 이 브릿지로 인해 발생하는 성능 문제를 피하고 있습니다. 
+하지만, Flutter는 [Dart](https://dart.dev/)라는 컴파일 프로그래밍 언어를 이용해 이 브릿지로 인해 발생하는 성능 문제를 피하고 있습니다. 
 Dart는 Ahead of time (AOT)에 여러 플랫폼에 상응하는 네이티브 코드로 컴파일 됩니다. 
 
 다시말해, Flutter는 문맥 교환을 하는 JavaScript 브릿지를 거치지 않고 플랫폼과 직접적으로 커뮤니케이션하는 것입니다. 
@@ -120,7 +122,7 @@ Flutter는 이미 충분히 흥미롭고 시도해볼만한 가치를 가집니�
 위젯은 모바일 앱에서 가장 중요한 요소라고 해도 과언이 아닐 겁니다. 
 사실상, 위젯만으로 앱의 성패가 갈릴 수 있습니다.  
 
-![img](./img/Flutter04.gif)  
+![img](/docs/.vuepress/public/images/img-flutter/Flutter04.gif)  
 
 - 위젯에서 룩앤필은 다른 어떠한 것보다도 중요합니다. 위젯은 다양한 스크린 사이즈에서 보기 좋아야하고 또 자연스러워 보여야 합니다.  
 - 위젯은 반드시 빠르게 동작해야합니다: 위젯 트리를 만들때, 위젯들을 인플레이트할때, 화면에 배치시킬때, 렌더링할때, 
@@ -131,7 +133,7 @@ Flutter는 이미 충분히 흥미롭고 시도해볼만한 가치를 가집니�
 Flutter는 위에서 언급한 요구사항들 즉, 좋은 룩앤필, 빠른 속도, 커스터마이즈, 확장가능성을 지원하는 위젯을 제공하는 새로운 아키텍쳐를 
 가지고 있습니다. 맞습니다! 바로 Flutter가 OEM 위젯들 (또는 DOM 웹뷰)을 사용하지 않고, **자체적인 위젯**을 사용하고 있기 때문입니다.
 
-![img](./img/Flutter05.png)
+![img](/docs/.vuepress/public/images/img-flutter/Flutter05.png)
 
 Flutter는 위젯들과 렌더러들을 플랫폼 영역에서 앱의 영역으로 옮겨왔습니다. 
 이것은 이제 위젯들이 커스터마이징 가능해졌고 확장가능해졌다는 것을 의미합니다. 
@@ -203,7 +205,7 @@ new Center(
 이 코드의 구문에 이미 어떤 결과물이 만들어질지 충분한 의미를 가지고 있습니다. 
 이 코드를 통해 얻어지는 결과는 아래와 같습니다.
 
-![img](./img/Flutter06.png)  
+![img](/docs/.vuepress/public/images/img-flutter/Flutter06.png)  
 
 이 코드에서 레이아웃을 포함한 **모든 것은 위젯**입니다.  
 **Center 위젯**은 위젯의 부모(위의 예제에서는 스크린)의 중앙에 위젯의 자식 위젯들을 위치시킵니다.  
@@ -223,9 +225,9 @@ Flutter는 Column뿐 아니라 Row, Grid, List 등 꽤나 많은 위젯을 포�
 아래 이미지가 GIF 이미지라는 점을 잊지 마세요. Flutter는 이보다 더 부드럽습니다! 
 이 글의 마지막에 있는 리소스에서 해당 앱의 코드를 찾아 돌려볼 수 있습니다. 꼭 한번 돌려보세요!
 
-![img](./img/Flutter07.gif) 
-![img](./img/Flutter08.gif) 
-![img](./img/Flutter09.gif) 
+![img](/docs/.vuepress/public/images/img-flutter/Flutter07.gif) 
+![img](/docs/.vuepress/public/images/img-flutter/Flutter08.gif) 
+![img](/docs/.vuepress/public/images/img-flutter/Flutter09.gif) 
 
 대부분의 경우 Flutter는 한번의 패스로 레이아웃을 구축 할 수 있습니다.  
 다시 말해, 리니어 타임안에 끝낼 수 있는거죠. 이 때문에 Flutter는 많은 수의 위젯들을 한꺼번에 다루는 것도 가능합니다. 
@@ -251,7 +253,7 @@ Flutter에서 제공하는 위젯을 변형시키는 것이 가능합니다.
 Flutter에서 가장 유명한 특징은 빠르고, stateful한 Hot reload 기능입니다. 앱이 동작하고 있는 동안 Flutter 앱에 변경을 줄 수 있습니다.
 > Flutter는 보통 일초안에 이전 코드 상태를 유지하면서 변경된 부분을 적용합니다. 만약 에러가 발생하면, 개발자는 해당 에러를 수정하고 Flutter는 마치 에러가 없었던것처럼 그 이전 상태를 유지하며 동작합니다. 심지어 앱 전체를 다시 로딩할 때조차도 굉장히 빠릅니다.  
 
-![img](./img/Flutter10.gif) 
+![img](/docs/.vuepress/public/images/img-flutter/Flutter10.gif) 
 
 
 ## 그래서, Flutter는 무엇이 새롭고 흥미로운가?
