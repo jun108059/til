@@ -1,7 +1,7 @@
 const sidebar = require('./auto-sidebar-generator');
 
 module.exports = {
-    title: '✍Today Youngjun learned', // 사이트 타이틀
+    title: '✍Today Youngjun learned',
     description: 'Youngjun`s Personal Wiki (Today I Learned)',
     email: 'youngjun108059@gmail.com',
     base:'/til/',
@@ -25,7 +25,7 @@ module.exports = {
         // sidebar.getSidebarGroup('/machine-learning/', '📙 Machine Learning', true),
         // sidebar.getSidebarGroup('/python/', '📕 Python', true),
         // sidebar.getSidebarGroup('/Git/', '💛 Git', true),
-        sidebar.getSidebarGroup('/data-strucure/', '💚 Data Structure', true)
+        sidebar.getSidebarGroup('/data-structure/', '💚 Data Structure', true)
       ],
       // sidebarDepth: 0,
       sidebar: 'auto', // h1~h6 같은 heading tag를 기준으로 sidebar를 만들어줌
@@ -36,4 +36,4 @@ module.exports = {
       smoothScroll: true,
       lastUpdated: 'Last Updated'
     }
-  };
+  }
