@@ -3,7 +3,7 @@
     <div class="titleContainer">
       <h1>
         개발하는
-        <br>만두
+        <br>만두^_^
       </h1>
       <div class="infoContainer">
         <div class="name">YoungJun TIL</div>
