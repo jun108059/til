@@ -18,4 +18,4 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        BUILD_DIR: docs/.vuepress/dist
+        PUBLISH_DIR: docs/.vuepress/dist
