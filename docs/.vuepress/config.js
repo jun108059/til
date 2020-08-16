@@ -23,8 +23,7 @@ module.exports = {
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
         sidebar.getSidebarGroup('/GCP/', '📗 GCP'),
         sidebar.getSidebarGroup('/machine-learning/', '📙 Machine Learning', true),
-        sidebar.getSidebarGroup('/python/', '📕 Python', true),
-        sidebar.getSidebarGroup('/Git/', '💛 Git', true),
+        sidebar.getSidebarGroup('/Git/', '📕 Git', true),
         sidebar.getSidebarGroup('/data-structure/', '💚 Data Structure', true),
         sidebar.getSidebarGroup('/Java/', '❤ Java', true),
         sidebar.getSidebarGroup('/kubeflow/', '💙 Kubeflow', true),
@@ -32,7 +31,7 @@ module.exports = {
         sidebar.getSidebarGroup('/nginx/', '💜 NGINX', true),
         sidebar.getSidebarGroup('/spring/', '🤍 Spring', true),
         sidebar.getSidebarGroup('/system-programming/', '🤎 System Programming', true),
-        sidebar.getSidebarGroup('/UX&UI/', '💗 UX&UI', true),
+        sidebar.getSidebarGroup('/UX&UI/', '💛 UX&UI', true),
         sidebar.getSidebarGroup('/web/', '💕 Web', true)
       ],
       // sidebarDepth: 0,
