@@ -4,7 +4,7 @@
     "start_url": "/?utm_source=homescreen",
     "icons": [
       {
-        "src": "images/logo.PNG",
+        "src": "images/logo-144.png",
         "sizes": "144x144",
         "type": "image/png"
       }
