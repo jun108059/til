@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300px" src="image/nginx.PNG" align="center" alt="Membership" />
+    <img width="300px" src="/docs/.vuepress/public/images/img-nginx/nginx.PNG" align="center" alt="Membership" />
     <h2 align="center">NGINX</h2>
     <p align="center">트래픽이 많은 웹사이트를 위해 확장성을 고려해 설계한 비동기 이벤트 기반 구조의 웹서버</p>
 </p>
@@ -73,7 +73,7 @@ AWS에서 WAS 선택으로 NGINX 사용량이 계속 늘어나고 있는 추세�
 1. Mail proxy server
 1. Generic TCP/UDP proxy server
 
-![img](image/nginx-behavior.png)
+![img](/docs/.vuepress/public/images/img-nginx/nginx-behavior.png)
 (▲출처 : https://whatisthenext.tistory.com/123)
 
 ### HTTP server
@@ -84,7 +84,7 @@ AWS에서 WAS 선택으로 NGINX 사용량이 계속 늘어나고 있는 추세�
 
 ### Reverse proxy server
 
-![img](image/nginx-reverse-proxy.PNG)
+![img](/docs/.vuepress/public/images/img-nginx/nginx-reverse-proxy.PNG)
 (▲출처 : https://whatisthenext.tistory.com/123)
 
 클라이언트의 요청을 각 Application server에 배분해준다.
