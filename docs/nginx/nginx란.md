@@ -62,7 +62,7 @@ Event-Driven 방식을 채택하여 높은 성능을 발휘한다.
 
 AWS에서 WAS 선택으로 NGINX 사용량이 계속 늘어나고 있는 추세이다.
 
-![img](image/nginx-WebSeverChart.PNG)
+![img](/docs/.vuepress/public/images/img-nginx/nginx-WebSeverChart.PNG)
 
 
 

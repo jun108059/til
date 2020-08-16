@@ -1,6 +1,8 @@
 # Spring boot
 
-![img](../.vuepress/public/images/img-spring/springboot-logo.png)
+
+
+![img](/docs/.vuepress/public/images/img-spring/springboot-logo.png)
 
 ## 스프링 부트란?
 

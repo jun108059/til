@@ -29,5 +29,5 @@ I mean the difference is that if I open the file with "w+", the file will be era
 답변 중 이 이미지를 참고하면 확실히 정리가 된다.
 
 
-![img](/system-programming/img/fopen()정리.png)
+![img](/docs/.vuepress/public/images/img-sp/fopen정리.png)
 
