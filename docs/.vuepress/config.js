@@ -4,7 +4,7 @@ module.exports = {
     title: '✍Today Youngjun learned',
     description: 'Youngjun`s Personal Wiki (Today I Learned)',
     email: 'youngjun108059@gmail.com',
-    base:'/til/',
+    base:"/til/",
     head: [
       ['link', { rel: 'icon', href: `/images/logo-144.png` }],
       ['link', { rel: 'manifest', href: '/manifest.json' }]
@@ -34,8 +34,6 @@ module.exports = {
         sidebar.getSidebarGroup('/UX&UI/', '💛 UX&UI', true),
         sidebar.getSidebarGroup('/web/', '💕 Web', true)
       ],
-      // sidebarDepth: 0,
-      sidebar: 'auto', // h1~h6 같은 heading tag를 기준으로 sidebar를 만들어줌
       nav: [
         { text: 'GitHub', link: 'https://github.com/jun108059/til' },
         { text: 'Blog', link: 'https://dev-youngjun.tistory.com/' }
