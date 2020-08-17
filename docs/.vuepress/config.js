@@ -1,12 +1,12 @@
 const sidebar = require('./auto-sidebar-generator');
 
 module.exports = {
-    title: '✍Today Youngjun learned',
+    title: 'Today Youngjun learned✍',
     description: 'Youngjun`s Personal Wiki (Today I Learned)',
     email: 'youngjun108059@gmail.com',
     base:"/til/",
     head: [
-      ['link', { rel: 'icon', href: `/images/logo-144.png` }],
+      ['link', { rel: 'icon', href: '/images/logo-144.png' }],
       ['link', { rel: 'manifest', href: '/manifest.json' }]
     ],
     plugins: [
