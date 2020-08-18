@@ -3,6 +3,5 @@ node_modules
 gh-pages
 gh-pages.pub
 *.log
-yarn.lock
 .vuepress/dist/
 .vscode
