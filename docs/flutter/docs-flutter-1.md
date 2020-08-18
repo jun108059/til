@@ -1,10 +1,13 @@
-# <p align="center">[Flutter] 1. 첫번째 앱 만들어보기, part 1</p>
-  ![img](/docs/.vuepress/public/images/img-flutter/flutter.jpg)
-> flutter 공식 문서인 https://flutter.dev/docs/get-started/codelab 내용을     
-> 바탕으로 재구성하였습니다. 
+# [Flutter] 1. 첫번째 앱 만들어보기, part 1
+
+![img](../.vuepress/public/images/img-flutter/flutter.jpg)
+
+> flutter 공식 문서인 https://flutter.dev/docs/get-started/codelab 내용을  
+> 바탕으로 재구성하였습니다.
 
 ### Contents
-- [<p align="center">[Flutter] 1. 첫번째 앱 만들어보기, part 1</p>](#flutter-1-첫번째-앱-만들어보기-part-1)
+
+- [[Flutter] 1. 첫번째 앱 만들어보기, part 1](#flutter-1-첫번째-앱-만들어보기-part-1)
     - [Contents](#contents)
   - [Part 1 에서 만들 것](#part-1-에서-만들-것)
   - [Step 1: Starter Flutter App 만들기](#step-1-starter-flutter-app-만들기)

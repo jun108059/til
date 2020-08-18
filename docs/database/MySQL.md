@@ -1,10 +1,11 @@
-## Reference
-출처: https://futurists.tistory.com/11 [미래학자]
-
 # (MySQL) 1장 시작하기. (DB 생성, 테이블 생성, SELECT)
 
 데이터 베이스를 공부하면서 공부 내용을 포스트 해보려 합니다. 
 mySQL을 사용했으며, 버전은 5.7.15 for MAC 입니다. (버전 확인 : mysql --version)
+
+## Reference
+출처: https://futurists.tistory.com/11 [미래학자]
+
 
 ### 목차
 
