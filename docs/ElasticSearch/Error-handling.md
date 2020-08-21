@@ -86,3 +86,40 @@ curl: (6) Could not resolve host: application
 [Git Bash](https://gitforwindows.org/)를 사용해 똑같은 명령어를 작성했는데 잘 된다.
 
 ~~Cmder을 삭제해야겠다.~~
+
+---
+
+## The Bulk request must be terminated by a newline [\\n]
+
+### 문제점
+
+`JSON file`을 Bulk 하는 과정에서 Error 가 발생했다.  
+**2020.08.21**  
+
+```bash
+{
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "illegal_argument_exception",
+        "reason" : "The bulk request must be terminated by a newline [\\n]"
+      }
+    ],
+    "type" : "illegal_argument_exception",
+    "reason" : "The bulk request must be terminated by a newline [\\n]"
+  },
+  "status" : 400
+}
+```
+
+### 원인
+
+Error 설명대로 `New Line`으로 끝나야되는데 `New Line`이 없어서 그런 것 같다.
+
+### 해결방법
+
+JSON file에 엔터를 두 번 쳤다.
+
+~~이렇게 단순한 Error는 적지도 말아야겠다. Error 잡는 시간보다 정리하는게 더 오래걸렸음~~
+
+---

@@ -46,3 +46,4 @@
 {"title" : "Biochemistry","Professor" : "John Miller","major" : "Medical","semester" : ["fall"],"student_count" : 30,"unit" : 3,"rating" : 4, "submit_date" : "2020-01-11", "school_location" : {"lat" : 28.22, "lon" : -81.87}}
 { "index" : { "_index" : "classes", "_type" : "class", "_id" : "25" } }
 {"title" : "Anatomy","Professor" : "Tom Johnson","major" : "Medical","semester" : ["fall"],"student_count" : 30,"unit" : 5,"rating" : 3, "submit_date" : "2020-11-12", "school_location" : {"lat" : 28.22, "lon" : -81.87}}
+
