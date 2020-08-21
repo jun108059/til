@@ -1,10 +1,13 @@
- 
-![img](kubernetes/img/markdown.png) 
-# 마크다운(MarkDown) 문법 
+# 마크다운(MarkDown) 문법
+
+![img](../.vuepress/public/images/img-etc/markdown.png)  
 
 마크다운 문법에 대해 공부하다보니 내가 정리하는게 나을 것 같아 정리한다.
-<br><br>
+
+<br>
+
 ## 목차
+
 - [제목(Header)](#제목header)  
 - [강조(Emphasis)](#강조emphasis))  
 - [목록(List)](#목록list)
@@ -19,7 +22,8 @@
 - [수평선(Horizontal Rule)](#수평선horizontal-rule)  
 - [줄바꿈(Line Breaks)](#줄바꿈line-breaks)  
 
-<br><br>
+<br>
+
 ## 제목(Header)
 
 `<h1>`부터 `<h6>`까지 제목을 표현할 수 있다.
@@ -31,8 +35,9 @@
 #### 제목 4
 ##### 제목 5
 ###### 제목 6
-````
-<br><br>
+```
+
+<br>
 
 ## 강조(Emphasis)
 
@@ -41,7 +46,8 @@
 두껍게: __언더바(underscore)__ or **별표(asterisks)**
 취소선: ~물결(tilde)~
 ```
-<br><br>
+
+<br>
 
 ## 목록(List)
 
@@ -49,7 +55,7 @@
 1. 순서가 필요한 목록
 2. 순서가 필요한 목록
     - 순서가 필요하지 않은 목록(서브)
-    - 순서가 필요하지 않은 목록(서브) 
+    - 순서가 필요하지 않은 목록(서브)
 3. 순서가 필요한 목록
     1. 순서가 필요한 목록(서브)
     1. 순서가 필요한 목록(서브)
@@ -75,9 +81,10 @@
   * 별표(asterisks)
   + 더하기(plus sign)
 
-<br><br>
+<br>
 
 ## 링크(Links)
+
 ```markdown
 [GOOGLE](https://google.com)
 [NAVER](https://naver.com "링크 설명(title)을 작성하세요.")
@@ -125,10 +132,10 @@
 ```
 
 > **주의할 점**  
-> 1. 띄어쓰기는 - 로 연결해준다.   
+> 1. 띄어쓰기는 - 로 연결해준다.  
 > 2. 영어는 모두 소문자로 작성한다.  
-> 3. ()괄호는 없이 작성한다.
-> 4. 이모지를 사용할 경우 :: 없이 작성한다.
+> 3. ()괄호는 없이 작성한다.  
+> 4. 이모지를 사용할 경우 :: 없이 작성한다.  
 
 <br><br>
 
@@ -158,6 +165,7 @@
 <br><br>
 
 ## 이스케이프(Backslash Escapes)
+
 마크다운으로 글을 작성하다 보면 * 문자나 _ 문자 등을 사용하고 싶은 경우가 있다. 그럴 때는 \ 문자로 회피할 수 있다.
 ```
 강조는 \* 문자 혹은 \_ 문자를 사용한다.
@@ -175,6 +183,7 @@
 ```
 
 ### 이미지에 링크
+
 마크다운 이미지 코드를 링크 코드로 묶어 준다.
 
 ```markdown
@@ -185,41 +194,42 @@
 
 
 ### 이미지 크기 조정
-> Github에서 이미지 크기 조절 markdown 문법으로 작용하지 않는다.   
+
+> Github에서 이미지 크기 조절 markdown 문법으로 작용하지 않는다.  
 > html 문법의 `<img>`영역을 직접 텍스트로 입력해서 변환하는게 좋다.  
 
 #### (1)직접 사이즈를 지정하는 방법
 
 ```markdown
-<img src="kubernetes/img/til.JPG" width="150" height="50">
+<img src="img/markdown.png" width="150" height="50">
 ```
 
-<img src="kubernetes/img/til.JPG" width="150" height="50">
+<img src="../.vuepress/public/images/img-etc/markdown.png" width="150" height="50">
 
 
 #### (2)비율로 지정하는 방법(%)
 
 ```markdown
-<img src="kubernetes/img/til.JPG" width="30%" height="30%">
+<img src="img/markdown.png" width="30%" height="30%">
 ```
 
-<img src="kubernetes/img/til.JPG" width="30%" height="30%">
+<img src="../.vuepress/public/images/img-etc/markdown.png" width="30%" height="30%">
 
 <br><br>
 
 ## 코드(Code) 강조
 
-
 ### 인라인(inline) 코드 강조
+
 ```markdown
 `background`혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
 ```
 `background`혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
 
-
 ### 블록(block) 코드 강조
+
 `를 3번 이상 입력하고 코드 종류도 적는다.  
-> 꿀팁   
+> 꿀팁  
 > 내부에 \`을 사용하고 싶으면 `~~~`과 혼용하여 사용하면 좋다
 
 ~~~markdown
@@ -227,12 +237,15 @@
 code
 ```
 ~~~
+
 #### html
+
 ```html
 <a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>
 ```
 
 #### css
+
 ```css
 .list > li {
   position: absolute;
@@ -241,6 +254,7 @@ code
 ```
 
 #### javascript
+
 ```javascript
 function func() {
   var a = 'AAA';
@@ -314,7 +328,9 @@ BREAK!
 <br><br>
 
 ## 수평선(Horizontal Rule)
+
 각 기호를 3개 이상 입력하세요.
+
 ```markdown
 ---
 (Hyphens)
@@ -346,8 +362,10 @@ ___
 무궁화 삼천리 화려 강산<br>
 대한 사람 대한으로 길이 보전하세
 ```
+
 동해물과 백두산이 마르고 닳도록  
-하느님이 보우하사 우리나라 만세   
+하느님이 보우하사 우리나라 만세  
 무궁화 삼천리 화려 강산<br>
 대한 사람 대한으로 길이 보전하세
 
+---

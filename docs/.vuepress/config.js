@@ -33,7 +33,8 @@ module.exports = {
         sidebar.getSidebarGroup('/spring/', '🤍 Spring', true),
         sidebar.getSidebarGroup('/system-programming/', '🤎 System Programming', true),
         sidebar.getSidebarGroup('/UX&UI/', '💛 UX&UI', true),
-        sidebar.getSidebarGroup('/web/', '💕 Web', true)
+        sidebar.getSidebarGroup('/web/', '💕 Web', true),
+        sidebar.getSidebarGroup('/etc/', '📌 etc', true)
       ],
       nav: [
         { text: 'GitHub', link: 'https://github.com/jun108059/til' },
