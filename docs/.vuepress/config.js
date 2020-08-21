@@ -18,6 +18,7 @@ module.exports = {
     ],
     themeConfig: {
       sidebar: [
+        sidebar.getSidebarGroup('/ElasticSearch/', '🎨 Elasticsearch', true),
         sidebar.getSidebarGroup('/docker/', '🐳 Docker', true),
         sidebar.getSidebarGroup('/kubernetes/', '🐋 Kubernetes', true),
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
@@ -25,7 +26,7 @@ module.exports = {
         sidebar.getSidebarGroup('/machine-learning/', '📙 Machine Learning', true),
         sidebar.getSidebarGroup('/Git/', '📕 Git', true),
         sidebar.getSidebarGroup('/data-structure/', '💚 Data Structure', true),
-        sidebar.getSidebarGroup('/Java/', '❤ Java', true),
+        sidebar.getSidebarGroup('/Java/', '💝 Java', true),
         sidebar.getSidebarGroup('/kubeflow/', '💙 Kubeflow', true),
         sidebar.getSidebarGroup('/news/', '🖤 News', true),
         sidebar.getSidebarGroup('/nginx/', '💜 NGINX', true),
