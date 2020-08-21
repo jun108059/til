@@ -14,13 +14,20 @@
     </a>
     <br />
     <br />
+    <a>
+    ▼ 블로그 구경하기
+    </a>
+    <br />
+    <a href="https://jun108059.github.io/til/">
+        <img alt="VuePress" src="https://img.shields.io/badge/-TIL Vuepress Page-44c5fc?logo=Vue.js"/>
+    </a>
 </p>
 
 --- 
 
 ### Markdown
-💡[내가 보려고 만든 마크다운 작성 문법 정리](https://dev-youngjun.tistory.com/51)   
-💡[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/docs/techInterview.md)   
+💡[내가 보려고 만든 마크다운 작성 문법 정리](https://jun108059.github.io/til/etc/myMarkDown.html)  
+💡[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/docs/techInterview.md)  
 
 ## :open_book:Categories
 
