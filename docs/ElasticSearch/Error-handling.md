@@ -1,5 +1,16 @@
 # Error Handling Note
 
+Elasticsearch 7.9 버전을 사용하면서 발생한 Error를 정리하였다.
+
+---
+
+### 실습 환경
+### 💡 Elasticsearch 7.9.0
+### 💡 Windows 10
+### 💡 Git Bash
+
+---
+
 ## header not supported Error
 
 ### 문제점
