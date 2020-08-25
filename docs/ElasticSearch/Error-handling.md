@@ -123,3 +123,108 @@ JSON file에 엔터를 두 번 쳤다.
 ~~이렇게 단순한 Error는 적지도 말아야겠다. Error 잡는 시간보다 정리하는게 더 오래걸렸음~~
 
 ---
+
+## Mapping 설정에서 문제점(Elasticsearch 7.x 버전)
+
+**2020.08.24**
+
+### ✔ 문제점
+
+Elasticsearch 7.x 버전에서 `Mapping`을 생성하는 실습 도중 에러가 발생했다.
+
+에러문구는 다음과 같다.
+
+```bash
+{
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "illegal_argument_exception",
+        "reason" : "Types cannot be provided in put mapping requests, unless the include_type_name parameter is set to true."
+      }
+    ],
+    "type" : "illegal_argument_exception",
+    "reason" : "Types cannot be provided in put mapping requests, unless the include_type_name parameter is set to true."
+  },
+  "status" : 400
+}
+```
+
+---
+
+### 원인
+
+- `Elasticsearch 7.x` 버전부터는 `curl` 리퀘스트에서 헤더를 명확히 설정해주어야 한다.
+- `mapping`을 생성할 때에는 `include_type_name`을 `true`로 설정해주어야 한다.
+
+---
+
+### 해결방법
+
+#### 1️⃣ `mapping`을 생성할 때 아래와 같이 Content-Type 추가
+
+`-H 'Content-Type: application/json'`
+
+전체 커멘드 라인
+
+```bash
+$ curl -XPUT http://localhost:9200/classes/class/_mapping -d @classesRating_mapping.json -H 'Content-Type: application/json'
+```
+
+다른 에러 발생
+
+```bash
+{
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "illegal_argument_exception",
+        "reason" : "Types cannot be provided in put mapping requests, unless the include_type_name parameter is set to true."
+      }
+    ],
+    "type" : "illegal_argument_exception",
+    "reason" : "Types cannot be provided in put mapping requests, unless the include_type_name parameter is set to true."
+  },
+  "status" : 400
+}
+```
+
+이 에러에 대해 [Elasticsearch 공식 문서](https://www.elastic.co/kr/blog/moving-from-types-to-typeless-apis-in-elasticsearch-7-0)를 찾아보면 7.0 버전 부터는 무형식 API를 도입함에 따라 
+
+**include_type_name=true를 인덱스 생성, 템플릿, 매핑 API로 전달** 하라는 내용이 있다.
+
+추가해보았다.
+
+#### 2️⃣ `include_type_name=true` 추가
+
+```bash
+$ curl -XPUT 'http://localhost:9200/classes/class/_mapping?include_type_name=true&pretty' -d @classesRating_mapping.json -H 'Content-Type: application/json'
+```
+
+또 다른 에러가 발생했다.
+
+```bash
+{
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "mapper_parsing_exception",
+        "reason" : "No handler for type [string] declared on field [professor]"
+      }
+    ],
+    "type" : "mapper_parsing_exception",
+    "reason" : "No handler for type [string] declared on field [professor]"
+  },
+  "status" : 400
+}
+
+```
+
+이 원인을 [stackoverflow](https://stackoverflow.com/questions/47452770/no-handler-for-type-string-declared-on-field-name)에서 찾을 수 있는데 6.0 버전 이상부터 Mapping Type 중 `String`을 삭제하고 `text`로 변경하여 사용한다고 한다.
+
+따라서 기존의 mapping 타입 중 string을 삭제하면 해결된다.
+
+
+[참고한 글](https://www.inflearn.com/questions/12385)
+
+---
