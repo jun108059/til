@@ -1,0 +1,51 @@
+{
+	"curation" : {
+		"properties" : {
+			"curation_seq" : {
+				"type" : "integer"
+			},
+			"curation_title" : {
+				"type" : "text"
+			},
+			"template" : {
+				"type" : "text"
+			},
+			"template_img" : {
+				"type" : "text"
+			},
+			"ending_txt" : {
+				"type" : "text"
+			},
+			"tag" : {
+				"type" : "text"
+			},
+			"pc_hits" : {
+				"type" : "integer"
+            },
+            "m_hits" : {
+				"type" : "integer"
+			},
+			"reservation_dt" : {
+				"type" : "date"
+            },
+            "reg_dt" : {
+				"type" : "date"
+            },
+            "up_dt" : {
+				"type" : "date"
+            },
+            "status" : {
+				"type" : "text"
+            },
+            "open_fl" : {
+				"type" : "text"
+            },
+            "main_fl" : {
+				"type" : "text"
+			},
+			"writer" : {
+				"type" : "text"
+			}
+		}
+	}
+}
