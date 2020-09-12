@@ -1,7 +1,9 @@
+# Substring & Split
+
 ## 문자열 자르기(Substring & Split)
 
-
 ### 🔻SubString
+
 String(char Array)을 부분적으로 가져옴
 
 ```java
@@ -20,6 +22,7 @@ str.substring(3, 6);
 ```
 
 ### 🔻Split
+
 특정문자를 기준으로 배열 재생성
 
 ```java
@@ -47,7 +50,8 @@ for(int i = 0; i < array.length; i++) {
 ```
 
 
-## Reference
+### Reference
 
-- [코딩팩토리](https://coding-factory.tistory.com/126)   
-> 문자열 자르기(Substring, Split 사용법 & 예제) 정리   
+- [코딩팩토리](https://coding-factory.tistory.com/126)  
+  
+> 문자열 자르기(Substring, Split 사용법 & 예제) 정리

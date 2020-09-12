@@ -1,50 +1,30 @@
-## Java Static 이란?
+# Java Static
 
-### Reference
-https://mommoo.tistory.com/24?category=577684 [개발자로 홀로 서기]
-
----
-
+## Static이란?
 
 프로그래밍 용어로써의 Static은 정적의,고정의 뜻으로 생각하면 된다.
 
-
-
 자바에서는 어떻게 쓰이나 아래의 설명을 보자.
-
-
 
 먼저, 자바는 Statically Type Variable (정적 타입 변수)를 가진다.
 
-
-
 예를 들어, 변수를 사용할때 아래와 같이 사용한다.
-
 
 ```java
 int a = 1;
 ```
 
-
 int라는 자료형을 미리 정해줌으로써 a 변수는 정수 실제 데이터 밖에 싣지 못한다.
-
-
 
 미리 자료형을 고정하므로 Static개념이다.
 
-
-
 많은 스크립트 언어가 윗 개념과의 반대인 Dynamically Type Variable(동적 타입 변수)를 가진다.
 
-
-
 예를 들어, 자바스크립트에서는 아래와 같이 변수를 사용한다.
-
 
 ```java
 var a = 1;
 ```
-
 
 여기서는 var(Variable의 약자) 이라는 변수 표시와 함께 변수명 a를 선언 했을때, 실제데이터의 종류에 따라 동적으로
 
@@ -175,3 +155,6 @@ ex)
 
 
 
+
+### Reference
+https://mommoo.tistory.com/24?category=577684 [개발자로 홀로 서기]

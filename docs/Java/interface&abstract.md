@@ -1,9 +1,13 @@
+# Interface & Abstract
+
 공부하고 정리하는 중입니다!
 
+## 공통점과 차이점
+
 ### 공통점
+
 - 객체를 생성할 수 없다.
 - 선언부만 있는 멤버는 하위 클래스에서 반드시 구현해야 한다.
-
 
 ### 차이점
 
@@ -29,16 +33,11 @@
 - 멤버 앞 접근제어자 사용 불가능 (defalt로 public 적용)
 - 다중 구현 가능!
 
+---
 
+![img](../.vuepress/public/images/img-java/interface&abstract(1).png)
 
-
-
-![img](Java/img/interface&abstract(1).PNG)  
-
-(▲ 출처 : [oemilk brunch](https://brunch.co.kr/@oemilk/134) 클래스와 인터페이스)
- 
-
-
+(▲ 출처 : [oemilk brunch](https://brunch.co.kr/@oemilk/134) 클래스와 인터페이스)  
 
 ### Reference
 
