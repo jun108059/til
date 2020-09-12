@@ -35,7 +35,7 @@
 
 ---
 
-![img](../.vuepress/public/images/img-java/interface&abstract(1).png)
+![img](../.vuepress/public/images/img-java/interface&abstract1.png)
 
 (▲ 출처 : [oemilk brunch](https://brunch.co.kr/@oemilk/134) 클래스와 인터페이스)  
 
