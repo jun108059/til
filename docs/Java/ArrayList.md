@@ -1,8 +1,10 @@
+# ArrayList
+
 ## Java ArrayList 예제
+
 코딩테스트에서 ArrayList가 자주 사용되어서 정리해보려고 한다.
 
 아래 예제는 [java2s](http://www.java2s.com/) 의 예제에서 가져왔고, 주석으로 설명을 추가했다.
-
 
 ### 🔻 ArrayList add, remove
 
@@ -49,20 +51,27 @@ public class Main {
       al.remove(3); //3번째 인덱스 삭제.D삭제
       System.out.println("al.remove(3) 실행 후 : " + al.toString());
       // al.remove(3) 실행 후 : [A, Sniper, B, D, F]
-     
-    }
 
-} 
+    }
+}
 ```
 
-#### 🍯 ArrayList 마지막 index 삭제하는 방법
+---
+
+### 💡 ArrayList 마지막 index 삭제하는 방법
+
 ```java
 list.remove(list.size() - 1);
 ```
-> oracle 공식 문서 java7 ArrayList part를 참고했다.  
 
-#### 🍯 ArrayList ➡️ Array(배열) 변환 방법
+> oracle 공식 문서 java7 ArrayList part를 참고하면 좋다.  
+
+---
+
+### 💡 ArrayList ➡️ Array(배열) 변환 방법
+
 toArray() 메소드 활용
+
 ```java
 ArrayList<String> arrayList = new ArrayList<>();
 
@@ -73,8 +82,12 @@ arrayList.add("YoungJun");
 String[] array = arrayList.toArray(new String[arrayList.size()]);
 ```
 
-#### ♻️ Array(배열) ➡️ ArrayList 변환 방법
+---
+
+### 💡 Array(배열) ➡️ ArrayList 변환 방법
+
 asList() 메소드 활용
+
 ```java
 String[] array = new String[3];
 
@@ -85,8 +98,10 @@ array[2] = "Python";
 ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
 ```
 
-### Reference
+---
 
-http://www.java2s.com/   
-https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html   
-https://programmers.co.kr/learn/courses/17/lessons/805    
+#### Reference
+
+- http://www.java2s.com/  
+- https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html  
+- https://programmers.co.kr/learn/courses/17/lessons/805  
