@@ -2,7 +2,7 @@
 <p align="center">
     <img width="300px" src="image/til.PNG" align="center" alt="Membership" />
     <h2 align="center">Today Youngjun Learned</h2>
-    <p align="center">공부한거 까먹지 말고 적어놓자😆</p>
+    <p align="center">공부한거 까먹지 말고 적어놓자<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></p>
 </p>
 
 <p align="center">
@@ -15,11 +15,11 @@
     <br />
     <br />
     <a>
-    ▼ 블로그 구경하기
+    블로그 구경하기
     </a>
     <br />
     <a href="https://jun108059.github.io/til/">
-        <img alt="VuePress" src="https://img.shields.io/badge/-TIL Vuepress Page-44c5fc?logo=Vue.js"/>
+        <img src="https://raw.githubusercontent.com/jun108059/jun108059/master/svg/dev/frameworks/vue.svg" alt="dev.to" style="vertical-align:top; margin:6px 4px"/>
     </a>
 </p>
 
@@ -31,27 +31,39 @@
 
 ## :open_book:Categories
 
-#### 1. [Algorithm](#pushpinalgorithm)
-#### 2. [Kubernetes](#pushpinkubernetes)  
-#### 3. [Docker](#pushpindocker)  
-#### 4. [GCP](#pushpingcpgoogle-cloud-platform)  
-#### 5. [Machine Learning](#pushpinmachine-learning)
-#### 6. [Flutter](#pushpinflutter)
-#### 7. [Python](#pushpinpython)
-#### 8. [Git](#pushpingit)
-#### 9. [UX/UI](#pushpinuxui)
-#### 10. [Web development](#pushpinweb-development)
-#### 11. [News](#newspapernews)
+- [:open_book:Categories](#open_bookcategories)
+- [:pushpin:ElasticSearch](#pushpinelasticsearch)
+- [:pushpin:Algorithm](#pushpinalgorithm)
+- [:pushpin:Kubernetes](#pushpinkubernetes)
+- [:pushpin:Docker](#pushpindocker)
+- [:pushpin:GCP(Google Cloud Platform)](#pushpingcpgoogle-cloud-platform)
+- [:pushpin:Machine Learning](#pushpinmachine-learning)
+- [:pushpin:Flutter](#pushpinflutter)
+- [:pushpin:Python](#pushpinpython)
+- [:pushpin:Git](#pushpingit)
+- [:pushpin:UX/UI](#pushpinuxui)
+- [:pushpin:Web Development](#pushpinweb-development)
+- [:newspaper:News](#newspapernews)
 
-
+## :pushpin:ElasticSearch
+ ● [1.ElasticSearch 설치 및 이해](https://jun108059.github.io/til/ElasticSearch/01.ElasticSearch.html#_1-elasticsearch-%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)  
+ ● [2.ElasticSearch 데이터 입력, 조회, 삭제](https://jun108059.github.io/til/ElasticSearch/02.ElasticSearch.html)  
+ ● [3.ElasticSearch 데이터 업데이트](https://jun108059.github.io/til/ElasticSearch/03.ElasticSearch.html)  
+ ● [4.ElasticSearch 벌크(Bulk)](https://jun108059.github.io/til/ElasticSearch/04.ElasticSearch.html)  
+ ● [5.ElasticSearch 매핑(Mapping)](https://jun108059.github.io/til/ElasticSearch/05.ElasticSearch.html)  
+ ● [6.ElasticSearch 데이터 조회(Search)](https://jun108059.github.io/til/ElasticSearch/06.ElasticSearch.html)  
+ ● [7.ElasticSearch Metric Aggregation](https://jun108059.github.io/til/ElasticSearch/07.ElasticSearch.html)  
+ ● [8.ElasticSearch Bucket Aggregation](https://jun108059.github.io/til/ElasticSearch/08.ElasticSearch.html)  
+ ● [9.Elasticsearch7 - Java Rest Client](https://jun108059.github.io/til/ElasticSearch/09.ElasticSearch.html)  
+ ● [10.Java High Level Rest Client](https://jun108059.github.io/til/ElasticSearch/09.ElasticSearch.html)  
 
 ## :pushpin:Algorithm
  ● [SWEA](https://github.com/jun108059/Algorithm/tree/master/SWEA)   
  ● [Programmers](https://github.com/jun108059/Algoritm/tree/master/Programmers)   
  ● [Python](https://github.com/jun108059/Algorithm/tree/master/Python)   
  ● [LeetCode](https://github.com/jun108059/Algorithm/tree/master/LeetCode/MayLeetCodingChallenge/Week1)   
-   
- 
+
+
 ## :pushpin:Kubernetes
  ● [Overview](https://github.com/jun108059/til/blob/master/docs/kubernetes/00.Overview.md)   
  ● [Why Kubernetes?](https://github.com/jun108059/til/blob/master/docs/kubernetes/01.WhyKubernetes.md)   
@@ -135,8 +147,6 @@ docs/
  ● [PHP 함수](https://github.com/jun108059/Web-Study/blob/master/PHP/3.PHP%ED%95%A8%EC%88%98.md)    
  ● [PHP 배열](https://github.com/jun108059/Web-Study/blob/master/PHP/4.PHP%EB%B0%B0%EC%97%B4.md)   
  ● [PHP include와 namespace](https://github.com/jun108059/Web-Study/blob/master/PHP/5.PHP-include%26namespace.md)   
-  
-
 
 ## :newspaper:News
  ● [알리바바그룹 선정 2020 IT 산업 10대 트렌드](https://github.com/jun108059/til/blob/master/docs/news/01.2020-Industry-trends.md)   
