@@ -12,6 +12,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.3",
     "@vuepress/plugin-pwa": "^1.5.3",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-image": "^1.0.4"
   }
 }
