@@ -14,7 +14,8 @@ module.exports = {
       ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-      }]
+      }],
+      ['image']
     ],
     themeConfig: {
       sidebar: [
