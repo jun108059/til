@@ -26,12 +26,12 @@
 --- 
 
 ### Markdown
+
 💡[내가 보려고 만든 마크다운 작성 문법 정리](https://jun108059.github.io/til/etc/myMarkDown.html)  
 💡[기술 면접 참고 GitHub](https://github.com/jun108059/til/blob/master/docs/techInterview.md)  
 
-## :open_book:Categories
+### :open_book:Categories
 
-- [:open_book:Categories](#open_bookcategories)
 - [:pushpin:ElasticSearch](#pushpinelasticsearch)
 - [:pushpin:Algorithm](#pushpinalgorithm)
 - [:pushpin:Kubernetes](#pushpinkubernetes)
@@ -71,7 +71,6 @@
  ● [Getting Started Kubernetes!](https://github.com/jun108059/til/blob/master/docs/kubernetes/03.GettingStartedKubernetes.md)   
  ● [Setting](https://github.com/jun108059/til/blob/master/docs/kubernetes/05.PCSetting.md)   
  ● [Kubeflow 설치](https://github.com/jun108059/til/blob/master/docs/kubeflow/00.Kubeflow-Installation.md)   
-docs/
 
 ## :pushpin:Docker
  ● [What is Docker?](https://github.com/jun108059/til/blob/master/docs/docker/00.WhatIsDocker.md)  
