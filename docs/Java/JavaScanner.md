@@ -1,3 +1,7 @@
+# Java Scanner
+
+정리해서 작성할 예정
+
 ## Reference
 
 - [Scanner 입력 후 편하게 데이터 가공](https://1nyoung.tistory.com/14?category=738465)  

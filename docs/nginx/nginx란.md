@@ -1,5 +1,7 @@
+# NGINX란
+
 <p align="center">
-    <img width="300px" src="/docs/.vuepress/public/images/img-nginx/nginx.PNG" align="center" alt="Membership" />
+    <img width="300px" src="../.vuepress/public/images/img-nginx/nginx.PNG" align="center" alt="Membership" />
     <h2 align="center">NGINX</h2>
     <p align="center">트래픽이 많은 웹사이트를 위해 확장성을 고려해 설계한 비동기 이벤트 기반 구조의 웹서버</p>
 </p>
@@ -102,7 +104,7 @@ AWS에서 WAS 선택으로 NGINX 사용량이 계속 늘어나고 있는 추세�
 > nginx.conf 파일에서 `location` 지시어를 사용하여 요청을 배분한다.
 
 
-## Nginx의 사용 예시
+### Nginx의 사용 예시
 
 Nginx은 크게 세 가지 용도로 사용된다.
 
