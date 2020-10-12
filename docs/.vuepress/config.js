@@ -14,8 +14,7 @@ module.exports = {
       ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-      }],
-      ['image']
+      }]
     ],
     themeConfig: {
       sidebar: [
@@ -25,16 +24,10 @@ module.exports = {
         sidebar.getSidebarGroup('/kubernetes/', '🐋 Kubernetes', true),
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
         sidebar.getSidebarGroup('/GCP/', '📗 GCP'),
-        sidebar.getSidebarGroup('/machine-learning/', '📙 Machine Learning', true),
-        sidebar.getSidebarGroup('/Git/', '📕 Git', true),
         sidebar.getSidebarGroup('/data-structure/', '💚 Data Structure', true),
         sidebar.getSidebarGroup('/Java/', '💝 Java', true),
         sidebar.getSidebarGroup('/kubeflow/', '💙 Kubeflow', true),
-        sidebar.getSidebarGroup('/news/', '🖤 News', true),
         sidebar.getSidebarGroup('/nginx/', '💜 NGINX', true),
-        sidebar.getSidebarGroup('/spring/', '🤍 Spring', true),
-        sidebar.getSidebarGroup('/system-programming/', '🤎 System Programming', true),
-        sidebar.getSidebarGroup('/UX&UI/', '💛 UX&UI', true),
         sidebar.getSidebarGroup('/web/', '💕 Web', true),
         sidebar.getSidebarGroup('/etc/', '📌 etc', true)
       ],
