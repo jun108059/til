@@ -19,7 +19,7 @@ module.exports = {
     themeConfig: {
       sidebar: [
         sidebar.getSidebarGroup('/ElasticSearch/', '🎨 Elasticsearch', true),
-        sidebar.getSidebarGroup('/kafka/', '⛲ Kafka', true),
+        sidebar.getSidebarGroup('/Opensource/', '🧩 OpenSource', true),
         sidebar.getSidebarGroup('/docker/', '🐳 Docker', true),
         sidebar.getSidebarGroup('/kubernetes/', '🐋 Kubernetes', true),
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
