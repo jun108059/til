@@ -21,7 +21,7 @@ Elasticsearch 7.9 버전을 사용하면서 발생한 Error를 정리하였다.
 
 `Document`를 만들 때 다음과 같은 Error가 발생한다.
 
-```bash
+```shell script
 {
   "error" : "Content-Type header [application/x-www-form-urlencoded] is not supported",
   "status" : 406
@@ -36,7 +36,7 @@ Elasticsearch 7.9 버전을 사용하면서 발생한 Error를 정리하였다.
 
 `curl` 명령어에 옵션을 다음과 같이 추가해서 실행해야 한다.
 
-```bash
+```shell script
 -H 'Content-Type: application/json'
 ```
 
@@ -44,7 +44,7 @@ Elasticsearch 7.9 버전을 사용하면서 발생한 Error를 정리하였다.
 
 **Error 상황**
 
-```bash
+```shell script
 $ curl -XPOST http://localhost:9200/classes/class/1/?pretty -d @oneclass.json
 
 {
@@ -55,7 +55,7 @@ $ curl -XPOST http://localhost:9200/classes/class/1/?pretty -d @oneclass.json
 
 **해결**
 
-```bash
+```shell script
 $ curl -XPOST http://localhost:9200/classes/class/1/?pretty -H 'Content-Type: application/json' -d @oneclass.json
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -85,7 +85,7 @@ $ curl -XPOST http://localhost:9200/classes/class/1/?pretty -H 'Content-Type: ap
 **2020.08.21**  
 Windows10 개발 환경에서 Elasticsearch를 테스트 중에 위 `header` 문제를 해결한 듯 하였는데 아래에 이런 `Error`가 더 있었다.
 
-```bash
+```shell script
 curl: (6) Could not resolve host: application
 ```
 
@@ -108,7 +108,7 @@ curl: (6) Could not resolve host: application
 `JSON file`을 Bulk 하는 과정에서 Error 가 발생했다.  
 **2020.08.21**  
 
-```bash
+```shell script
 {
   "error" : {
     "root_cause" : [
@@ -146,7 +146,7 @@ Elasticsearch 7.x 버전에서 `Mapping`을 생성하는 실습 도중 에러가
 
 에러문구는 다음과 같다.
 
-```bash
+```shell script
 {
   "error" : {
     "root_cause" : [
@@ -179,13 +179,13 @@ Elasticsearch 7.x 버전에서 `Mapping`을 생성하는 실습 도중 에러가
 
 전체 커멘드 라인
 
-```bash
+```shell script
 $ curl -XPUT http://localhost:9200/classes/class/_mapping -d @classesRating_mapping.json -H 'Content-Type: application/json'
 ```
 
 다른 에러 발생
 
-```bash
+```shell script
 {
   "error" : {
     "root_cause" : [
@@ -209,13 +209,13 @@ $ curl -XPUT http://localhost:9200/classes/class/_mapping -d @classesRating_mapp
 
 #### 2️⃣ `include_type_name=true` 추가
 
-```bash
+```shell script
 $ curl -XPUT 'http://localhost:9200/classes/class/_mapping?include_type_name=true&pretty' -d @classesRating_mapping.json -H 'Content-Type: application/json'
 ```
 
 또 다른 에러가 발생했다.
 
-```bash
+```shell script
 {
   "error" : {
     "root_cause" : [

@@ -23,12 +23,8 @@ module.exports = {
         sidebar.getSidebarGroup('/docker/', '🐳 Docker', true),
         sidebar.getSidebarGroup('/kubernetes/', '🐋 Kubernetes', true),
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
-        sidebar.getSidebarGroup('/GCP/', '📗 GCP'),
-        sidebar.getSidebarGroup('/machine-learning/', '📙 Machine Learning', true),
-        sidebar.getSidebarGroup('/Git/', '📕 Git', true),
         sidebar.getSidebarGroup('/data-structure/', '💚 Data Structure', true),
         sidebar.getSidebarGroup('/Java/', '💝 Java', true),
-        sidebar.getSidebarGroup('/kubeflow/', '💙 Kubeflow', true),
         sidebar.getSidebarGroup('/nginx/', '💜 NGINX', true),
         sidebar.getSidebarGroup('/web/', '💕 Web', true),
         sidebar.getSidebarGroup('/etc/', '📌 etc', true)
