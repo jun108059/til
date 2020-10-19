@@ -1,10 +1,9 @@
 const sidebar = require('./auto-sidebar-generator');
-
 module.exports = {
     title: 'Today Youngjun learned✍',
     description: 'Youngjun`s Personal Wiki (Today I Learned)',
     email: 'youngjun108059@gmail.com',
-    base:'/til/',
+    base:"/til/",
     head: [
       ['link', { rel: 'icon', href: '/images/logo-144.png' }],
       ['link', { rel: 'manifest', href: '/manifest.json' }]
@@ -14,36 +13,11 @@ module.exports = {
       ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-      }],
-      [
-        'vuepress-plugin-container',
-        {
-          type: 'right',
-          defaultTitle: '',
-        },
-      ],
-      [
-        'vuepress-plugin-container',
-        {
-          type: 'theorem',
-          before: info => `<div class="theorem"><p class="title">${info}</p>`,
-          after: '</div>',
-        },
-      ],
-      [
-        'vuepress-plugin-container',
-        {
-          type: 'tip',
-          defaultTitle: {
-            '/': 'TIP',
-          },
-        },
-      ],
+      }]
     ],
     themeConfig: {
       sidebar: [
         sidebar.getSidebarGroup('/ElasticSearch/', '🎨 Elasticsearch', true),
-        sidebar.getSidebarGroup('/Opensource/', '🧩 OpenSource', true),
         sidebar.getSidebarGroup('/docker/', '🐳 Docker', true),
         sidebar.getSidebarGroup('/kubernetes/', '🐋 Kubernetes', true),
         sidebar.getSidebarGroup('/flutter/', '📘 Flutter', true),
