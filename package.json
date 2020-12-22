@@ -1,4 +1,9 @@
 {
+  "name": "til",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jun108059/til.git",
+  "author": "YoungJun Park <youngjun108059@gmail.com>",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -7,15 +12,9 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "vuepress": "^1.7.1"
-  },
-  "dependencies": {
-    "@vue/component-compiler-utils": "^3.2.0"
-  },
-  "name": "til",
-  "version": "1.0.0",
-  "description": "Today I Learned",
-  "main": "index.js",
-  "repository": "https://github.com/jun108059/til.git",
-  "author": "jun108059 <youngjun108059@gmail.com>"
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-image": "^1.0.4",
+    "vue-router": "3.4.5"
+  }
 }
