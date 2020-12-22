@@ -12,7 +12,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "vuepress": "^2.0.0-alpha.12",
+    "vuepress": "^2.0.0-alpha.12"
   },
   "dependencies": {
     "@vue/component-compiler-utils": "^3.2.0"
