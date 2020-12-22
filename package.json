@@ -7,9 +7,15 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "vuepress": "^2.0.0-alpha.12"
+    "vuepress": "^1.7.1"
   },
   "dependencies": {
     "@vue/component-compiler-utils": "^3.2.0"
-  }
+  },
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned",
+  "main": "index.js",
+  "repository": "https://github.com/jun108059/til.git",
+  "author": "jun108059 <youngjun108059@gmail.com>"
 }
