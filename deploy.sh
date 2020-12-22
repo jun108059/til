@@ -12,7 +12,7 @@ cd docs/.vuepress/dist
 # init + add + commit을 해준 다음
 git init
 git add -A
-git commit -m '[Deploy] Vuepress'
+git commit -m '[Deploy]🎉Vuepress'
 
 # Deploying to https://jun108059.github.io/til
 git push -f git@github.com:jun108059/til.git master:gh-pages
