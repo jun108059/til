@@ -10,7 +10,9 @@ jobs:
     - uses: actions/checkout@master
 
     - run: yarn install
-      
+
+    - run: npm run docs:build
+
     - run: yarn docs:build
 
     - name: Deploy
