@@ -11,7 +11,7 @@ jobs:
 
     - run: yarn install
       
-    - run: npm run docs:build
+    - run: yarn docs:build
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
