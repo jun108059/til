@@ -1,9 +1,4 @@
 {
-  "name": "til",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/jun108059/til.git",
-  "author": "YoungJun Park <youngjun108059@gmail.com>",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
