@@ -21,7 +21,7 @@
     <div class="footer">
       <hr/>
       <p class="copyright">
-       © 2020 YoungJunPark
+       © 2021 YoungJunPark
        <br/>
        This site/repository is licensed under the MIT license. See <a href="https://github.com/jun108059/til/blob/master/LICENSE">LICENSE</a> for details.
       </p>
