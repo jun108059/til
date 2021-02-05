@@ -65,4 +65,3 @@ for ( var i = 0; i < $("input[name=chk]:checkbox" ).length; i++) {
 
 Reference
 - https://hermeslog.tistory.com/327
-- 
