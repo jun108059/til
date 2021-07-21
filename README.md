@@ -9,14 +9,12 @@
     <a href="https://dev-youngjun.tistory.com/">
         <img alt="Blog" src="https://img.shields.io/badge/-Tistory-red?logo=GitHub"/>
     </a>
-    <a href="http://hits.dwyl.com/jun108059/til">
-    <img alt="hits" src="http://hits.dwyl.com/jun108059/til.svg"/>
-    </a>
     <br />
     <br />
     <a>
     블로그 구경하기
     </a>
+    <br />
     <br />
     <a href="https://jun108059.github.io/til/">
         <img src="https://raw.githubusercontent.com/jun108059/jun108059/master/svg/dev/frameworks/vue.svg" alt="dev.to" style="vertical-align:top; margin:6px 4px"/>
