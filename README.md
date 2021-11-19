@@ -12,6 +12,7 @@
 
 ### :open_book: Categories
 
+- [Java](#java)
 - [ElasticSearch](#elasticsearch)
 - [Algorithm](#algorithm)
 - [Kubernetes](#kubernetes)
@@ -24,6 +25,13 @@
 - [UX/UI](#uxui)
 - [Web Development](#web-development)
 - [News](#news)
+
+## Java
+ - [함수형 인터페이스와 람다](https://jun108059.github.io/til/Java/07.Fuctional-Interface-Lamda.html)  
+ - [인터페이스의 변화](https://jun108059.github.io/til/Java/08.Interface.html)  
+ - [Stream](https://jun108059.github.io/til/Java/09.Stream.html)  
+ - [Optional](https://jun108059.github.io/til/Java/10.Optional.html)
+ - [Date와 Time](https://jun108059.github.io/til/Java/11.Date-Time.html)
 
 ## ElasticSearch
  - [1.ElasticSearch 설치 및 이해](https://jun108059.github.io/til/ElasticSearch/01.ElasticSearch.html#_1-elasticsearch-%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3)  
