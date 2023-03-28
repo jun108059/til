@@ -51,10 +51,6 @@ h1 {
   font-weight: 900;
   font-size: 2rem;
 }
-ul {
-  list-style: none;
-  line-height: 1.5rem;
-}
 @media (max-width: 550px) {
   h1 {
     font-size: 4.4rem;
