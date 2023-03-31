@@ -7,7 +7,7 @@
       </h1>
       <div class="infoContainer">
         <div class="name">YoungJun TIL</div>
-        <ul>
+        <ul style="list-style: none; line-height: 1.5rem;">
           <li>
             <a href="https://dev-youngjun.tistory.com/">Blog</a>
           </li>
@@ -21,18 +21,13 @@
     <div class="footer">
       <hr/>
       <p class="copyright">
-       © 2021 YoungJunPark
+       © 2023 YoungJunPark
        <br/>
        This site/repository is licensed under the MIT license. See <a href="https://github.com/jun108059/til/blob/master/LICENSE">LICENSE</a> for details.
       </p>
     </div>
   </div>
 </template>
-
-
-
-<script>
-</script>
 
 <style>
 @import "https://fonts.googleapis.com/css?family=Gugi";

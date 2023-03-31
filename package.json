@@ -1,6 +1,6 @@
 {
   "name": "til",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "https://github.com/jun108059/til.git",
   "author": "YoungJun Park <youngjun108059@gmail.com>",
@@ -10,10 +10,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.9.9"
   },
   "dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.8.0",
-    "@vuepress/plugin-pwa": "^1.8.0"
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-pwa": "^1.9.9",
+    "joi": "^17.9.1"
   }
 }
